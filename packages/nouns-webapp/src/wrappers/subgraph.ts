@@ -332,3 +332,24 @@ export const clientFactory = (uri: string) =>
     uri,
     cache: new InMemoryCache(),
   });
+
+export const leaderboard = (tops: number) => gql`
+  {
+    delegates(first: ${tops}, orderBy: delegatedVotes, orderDirection: desc, where: { delegatedVotes_gt:0 }) {
+      id
+      delegatedVotes
+      votes {
+        id
+      }
+    }
+    auctions(orderBy: startTime, orderDirection: desc, first: 1) {
+      id
+      amount
+      startTime
+      endTime
+      noun {
+        id
+      }
+    }
+  }
+`;

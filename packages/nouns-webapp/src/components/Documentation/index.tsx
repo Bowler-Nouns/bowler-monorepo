@@ -4,6 +4,7 @@ import classes from './Documentation.module.css';
 import Accordion from 'react-bootstrap/Accordion';
 import Link from '../Link';
 import { Trans } from '@lingui/macro';
+import Leaderboard from '../../components/Leaderboard';
 
 const Documentation = () => {
   const cryptopunksLink = (
@@ -45,11 +46,14 @@ const Documentation = () => {
               governance, and a treasury that can be used by the community.
             </Trans>
           </p>
-          <p className={classes.aboutText} style={{ paddingBottom: '4rem' }}>
+          <p className={classes.aboutText} style={{ paddingBottom: '1rem' }}>
             <Trans>
               Learn more below, or start creating Nouns off-chain using the {playgroundLink}.
             </Trans>
           </p>
+        </div>
+        <div style={{ marginBottom: '3rem' }}>
+          <Leaderboard tops={10} />
         </div>
         <Accordion flush>
           <Accordion.Item eventKey="0" className={classes.accordionItem}>

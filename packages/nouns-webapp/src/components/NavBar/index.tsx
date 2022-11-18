@@ -67,12 +67,12 @@ const NavBar = () => {
             <Navbar.Brand as={Link} to="/" className={classes.navBarBrand}>
               <img src={logo} className={classes.navBarLogo} alt="Nouns DAO logo" />
             </Navbar.Brand>
-            {Number(CHAIN_ID) !== 1 && (
+            {/* {Number(CHAIN_ID) !== 1 && (
               <Nav.Item>
                 <img className={classes.testnetImg} src={testnetNoun} alt="testnet noun" />
                 TESTNET
               </Nav.Item>
-            )}
+            )} */}
             <Nav.Item>
               {treasuryBalance && (
                 <Nav.Link
@@ -95,6 +95,19 @@ const NavBar = () => {
             onClick={() => setIsNavExpanded(!isNavExpanded)}
           />
           <Navbar.Collapse className="justify-content-end">
+            <Nav.Link
+              href={externalURL(ExternalURL.discourse)}
+              className={classes.nounsNavLink}
+              target="_blank"
+              rel="noreferrer"
+              onClick={closeNav}
+            >
+              <NavBarButton
+                buttonText={<Trans>Play Bowling Game</Trans>}
+                buttonIcon={<FontAwesomeIcon icon={faPlay} />}
+                buttonStyle={nonWalletButtonStyle}
+              />
+            </Nav.Link>
             <Nav.Link as={Link} to="/vote" className={classes.nounsNavLink} onClick={closeNav}>
               <NavBarButton
                 buttonText={<Trans>DAO</Trans>}
@@ -123,7 +136,7 @@ const NavBar = () => {
               onClick={closeNav}
             >
               <NavBarButton
-                buttonText={<Trans>Discourse</Trans>}
+                buttonText={<Trans>Discord</Trans>}
                 buttonIcon={<FontAwesomeIcon icon={faComments} />}
                 buttonStyle={nonWalletButtonStyle}
               />
@@ -174,7 +187,7 @@ const NavBar = () => {
                 </Dropdown.Item>
               </NavDropdown>
             </div>
-            <NavLocaleSwitcher buttonStyle={nonWalletButtonStyle} />
+            {/* <NavLocaleSwitcher buttonStyle={nonWalletButtonStyle} /> */}
             <NavWallet address={activeAccount || '0'} buttonStyle={nonWalletButtonStyle} />{' '}
           </Navbar.Collapse>
         </Container>
