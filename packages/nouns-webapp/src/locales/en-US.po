@@ -218,6 +218,10 @@ msgstr "Body"
 msgid "Born"
 msgstr "Born"
 
+#: src/components/AuctionActivityNounTitle/index.tsx
+msgid "Bowler Noun {0}"
+msgstr "Bowler Noun {0}"
+
 #: src/components/NounProfileVoteRow/index.tsx
 #: src/components/ProposalStatus/index.tsx
 #: src/components/ProposalStatusCopy/index.tsx
@@ -351,13 +355,13 @@ msgstr "Description"
 msgid "Disconnect"
 msgstr "Disconnect"
 
-#: src/components/Footer/index.tsx
+#: src/components/NavBar/index.tsx
 msgid "Discord"
 msgstr "Discord"
 
 #: src/components/NavBar/index.tsx
-msgid "Discourse"
-msgstr "Discourse"
+#~ msgid "Discourse"
+#~ msgstr "Discourse"
 
 #: src/components/NavBar/index.tsx
 msgid "Docs"
@@ -464,8 +468,8 @@ msgid "For this reason, we, the project's founders (‘Nounders’) have chosen 
 msgstr "For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th Noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
 
 #: src/components/Footer/index.tsx
-msgid "Forums"
-msgstr "Forums"
+#~ msgid "Forums"
+#~ msgstr "Forums"
 
 #: src/components/ProposalTransactionFormModal/index.tsx
 msgid "Function"
@@ -507,8 +511,8 @@ msgid "Held by"
 msgstr "Held by"
 
 #: src/components/AuctionActivity/index.tsx
-msgid "Help mint the next Noun"
-msgstr "Help mint the next Noun"
+#~ msgid "Help mint the next Noun"
+#~ msgstr "Help mint the next Noun"
 
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 msgid "Holder changed from <0><1/></0> to <2><3/></2>"
@@ -589,8 +593,8 @@ msgid "Noun votes are not transferable, but are <0>delegatable</0>, which means 
 msgstr "Noun votes are not transferable, but are <0>delegatable</0>, which means you can assign your vote to someone else as long as you own your Noun."
 
 #: src/components/AuctionActivityNounTitle/index.tsx
-msgid "Noun {0}"
-msgstr "Noun {0}"
+#~ msgid "Noun {0}"
+#~ msgstr "Noun {0}"
 
 #: src/components/Documentation/index.tsx
 msgid "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
@@ -667,8 +671,8 @@ msgid "Now has"
 msgstr "Now has"
 
 #: src/components/Banner/index.tsx
-msgid "ONE NOUN,"
-msgstr "ONE NOUN,"
+#~ msgid "ONE NOUN,"
+#~ msgstr "ONE NOUN,"
 
 #: src/components/Documentation/index.tsx
 msgid "On-Chain Artwork"
@@ -701,6 +705,10 @@ msgstr "Pending"
 #: src/components/Bid/index.tsx
 msgid "Place bid"
 msgstr "Place bid"
+
+#: src/components/NavBar/index.tsx
+msgid "Play Bowling Game"
+msgstr "Play Bowling Game"
 
 #: src/components/Documentation/index.tsx
 #: src/components/NavBar/index.tsx
@@ -884,6 +892,10 @@ msgstr "Switch to delegate view"
 msgid "Switch wallet"
 msgstr "Switch wallet"
 
+#: src/components/Banner/index.tsx
+msgid "TWO BOWLERS,"
+msgstr "TWO BOWLERS,"
+
 #: src/pages/Vote/index.tsx
 msgid "Taken at block"
 msgstr "Taken at block"
@@ -1045,7 +1057,6 @@ msgstr "View all bids"
 #: src/components/ChangeDelegatePannel/index.tsx
 #: src/components/Holder/index.tsx
 #: src/components/NounInfoRowHolder/index.tsx
-#: src/components/Winner/index.tsx
 #: src/components/profileEvent/event/DesktopDelegationEvent/index.tsx
 #: src/components/profileEvent/event/DesktopDelegationEvent/index.tsx
 #: src/components/profileEvent/event/DesktopNounWinEvent/index.tsx
@@ -1053,12 +1064,13 @@ msgstr "View all bids"
 #: src/components/profileEvent/event/DesktopProposalVoteEvent/index.tsx
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
+#: src/components/Winner/index.tsx
 msgid "View on Etherscan"
 msgstr "View on Etherscan"
 
 #: src/components/Bid/index.tsx
-msgid "Vote for the next Noun"
-msgstr "Vote for the next Noun"
+#~ msgid "Vote for the next Noun"
+#~ msgstr "Vote for the next Noun"
 
 #: src/components/ExploreGrid/ExploreNounDetail/index.tsx
 msgid "Vote history"

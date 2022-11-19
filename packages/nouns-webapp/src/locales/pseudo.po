@@ -218,6 +218,10 @@ msgstr ""
 msgid "Born"
 msgstr ""
 
+#: src/components/AuctionActivityNounTitle/index.tsx
+msgid "Bowler Noun {0}"
+msgstr ""
+
 #: src/components/NounProfileVoteRow/index.tsx
 #: src/components/ProposalStatus/index.tsx
 #: src/components/ProposalStatusCopy/index.tsx
@@ -351,13 +355,13 @@ msgstr ""
 msgid "Disconnect"
 msgstr ""
 
-#: src/components/Footer/index.tsx
+#: src/components/NavBar/index.tsx
 msgid "Discord"
 msgstr ""
 
 #: src/components/NavBar/index.tsx
-msgid "Discourse"
-msgstr ""
+#~ msgid "Discourse"
+#~ msgstr ""
 
 #: src/components/NavBar/index.tsx
 msgid "Docs"
@@ -464,8 +468,8 @@ msgid "For this reason, we, the project's founders (‘Nounders’) have chosen 
 msgstr ""
 
 #: src/components/Footer/index.tsx
-msgid "Forums"
-msgstr ""
+#~ msgid "Forums"
+#~ msgstr ""
 
 #: src/components/ProposalTransactionFormModal/index.tsx
 msgid "Function"
@@ -507,8 +511,8 @@ msgid "Held by"
 msgstr ""
 
 #: src/components/AuctionActivity/index.tsx
-msgid "Help mint the next Noun"
-msgstr ""
+#~ msgid "Help mint the next Noun"
+#~ msgstr ""
 
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 msgid "Holder changed from <0><1/></0> to <2><3/></2>"
@@ -589,8 +593,8 @@ msgid "Noun votes are not transferable, but are <0>delegatable</0>, which means 
 msgstr ""
 
 #: src/components/AuctionActivityNounTitle/index.tsx
-msgid "Noun {0}"
-msgstr ""
+#~ msgid "Noun {0}"
+#~ msgstr ""
 
 #: src/components/Documentation/index.tsx
 msgid "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
@@ -667,8 +671,8 @@ msgid "Now has"
 msgstr ""
 
 #: src/components/Banner/index.tsx
-msgid "ONE NOUN,"
-msgstr ""
+#~ msgid "ONE NOUN,"
+#~ msgstr ""
 
 #: src/components/Documentation/index.tsx
 msgid "On-Chain Artwork"
@@ -700,6 +704,10 @@ msgstr ""
 #: src/components/Bid/index.tsx
 #: src/components/Bid/index.tsx
 msgid "Place bid"
+msgstr ""
+
+#: src/components/NavBar/index.tsx
+msgid "Play Bowling Game"
 msgstr ""
 
 #: src/components/Documentation/index.tsx
@@ -884,6 +892,10 @@ msgstr ""
 msgid "Switch wallet"
 msgstr ""
 
+#: src/components/Banner/index.tsx
+msgid "TWO BOWLERS,"
+msgstr ""
+
 #: src/pages/Vote/index.tsx
 msgid "Taken at block"
 msgstr ""
@@ -1045,7 +1057,6 @@ msgstr ""
 #: src/components/ChangeDelegatePannel/index.tsx
 #: src/components/Holder/index.tsx
 #: src/components/NounInfoRowHolder/index.tsx
-#: src/components/Winner/index.tsx
 #: src/components/profileEvent/event/DesktopDelegationEvent/index.tsx
 #: src/components/profileEvent/event/DesktopDelegationEvent/index.tsx
 #: src/components/profileEvent/event/DesktopNounWinEvent/index.tsx
@@ -1053,12 +1064,13 @@ msgstr ""
 #: src/components/profileEvent/event/DesktopProposalVoteEvent/index.tsx
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
+#: src/components/Winner/index.tsx
 msgid "View on Etherscan"
 msgstr ""
 
 #: src/components/Bid/index.tsx
-msgid "Vote for the next Noun"
-msgstr ""
+#~ msgid "Vote for the next Noun"
+#~ msgstr ""
 
 #: src/components/ExploreGrid/ExploreNounDetail/index.tsx
 msgid "Vote history"

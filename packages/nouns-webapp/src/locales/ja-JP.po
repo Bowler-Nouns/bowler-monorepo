@@ -223,6 +223,10 @@ msgstr "体"
 msgid "Born"
 msgstr "誕生"
 
+#: src/components/AuctionActivityNounTitle/index.tsx
+msgid "Bowler Noun {0}"
+msgstr ""
+
 #: src/components/NounProfileVoteRow/index.tsx
 #: src/components/ProposalStatus/index.tsx
 #: src/components/ProposalStatusCopy/index.tsx
@@ -356,13 +360,13 @@ msgstr "説明"
 msgid "Disconnect"
 msgstr "切断する"
 
-#: src/components/Footer/index.tsx
+#: src/components/NavBar/index.tsx
 msgid "Discord"
 msgstr "Discord"
 
 #: src/components/NavBar/index.tsx
-msgid "Discourse"
-msgstr "Discourse"
+#~ msgid "Discourse"
+#~ msgstr "Discourse"
 
 #: src/components/NavBar/index.tsx
 msgid "Docs"
@@ -469,8 +473,8 @@ msgid "For this reason, we, the project's founders (‘Nounders’) have chosen 
 msgstr "その為、我々、プロジェクトの創設者 (Nounders) はNounsで自らを補償することに決めました。 プロジェクトの最初の5年間の間は、毎回10体目のNounがマルチシグ(5/10) に送られた後、個々のナウンダーズに与えられ、配布されます。"
 
 #: src/components/Footer/index.tsx
-msgid "Forums"
-msgstr "Forums"
+#~ msgid "Forums"
+#~ msgstr "Forums"
 
 #: src/components/ProposalTransactionFormModal/index.tsx
 msgid "Function"
@@ -512,8 +516,8 @@ msgid "Held by"
 msgstr "主催者"
 
 #: src/components/AuctionActivity/index.tsx
-msgid "Help mint the next Noun"
-msgstr "次にミントされるNounの投票をしてください"
+#~ msgid "Help mint the next Noun"
+#~ msgstr "次にミントされるNounの投票をしてください"
 
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 msgid "Holder changed from <0><1/></0> to <2><3/></2>"
@@ -594,8 +598,8 @@ msgid "Noun votes are not transferable, but are <0>delegatable</0>, which means 
 msgstr "Nounの票は譲渡できませんが (Nounの売却にはそれに応じて票も移ります)、委任することができます。"
 
 #: src/components/AuctionActivityNounTitle/index.tsx
-msgid "Noun {0}"
-msgstr "Noun {0}"
+#~ msgid "Noun {0}"
+#~ msgstr "Noun {0}"
 
 #: src/components/Documentation/index.tsx
 msgid "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
@@ -672,8 +676,8 @@ msgid "Now has"
 msgstr "今持っています"
 
 #: src/components/Banner/index.tsx
-msgid "ONE NOUN,"
-msgstr "1つのNOUNを"
+#~ msgid "ONE NOUN,"
+#~ msgstr "1つのNOUNを"
 
 #: src/components/Documentation/index.tsx
 msgid "On-Chain Artwork"
@@ -706,6 +710,10 @@ msgstr "保留中"
 #: src/components/Bid/index.tsx
 msgid "Place bid"
 msgstr "入札をする"
+
+#: src/components/NavBar/index.tsx
+msgid "Play Bowling Game"
+msgstr ""
 
 #: src/components/Documentation/index.tsx
 #: src/components/NavBar/index.tsx
@@ -889,6 +897,10 @@ msgstr "ビューを委任するように切り替えます"
 msgid "Switch wallet"
 msgstr "ウォレットを切り替える"
 
+#: src/components/Banner/index.tsx
+msgid "TWO BOWLERS,"
+msgstr ""
+
 #: src/pages/Vote/index.tsx
 msgid "Taken at block"
 msgstr "ブロックで撮影"
@@ -1050,7 +1062,6 @@ msgstr "すべての入札を表示"
 #: src/components/ChangeDelegatePannel/index.tsx
 #: src/components/Holder/index.tsx
 #: src/components/NounInfoRowHolder/index.tsx
-#: src/components/Winner/index.tsx
 #: src/components/profileEvent/event/DesktopDelegationEvent/index.tsx
 #: src/components/profileEvent/event/DesktopDelegationEvent/index.tsx
 #: src/components/profileEvent/event/DesktopNounWinEvent/index.tsx
@@ -1058,12 +1069,13 @@ msgstr "すべての入札を表示"
 #: src/components/profileEvent/event/DesktopProposalVoteEvent/index.tsx
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
+#: src/components/Winner/index.tsx
 msgid "View on Etherscan"
 msgstr "イーサスキャンで見る"
 
 #: src/components/Bid/index.tsx
-msgid "Vote for the next Noun"
-msgstr "次のNounに投票する"
+#~ msgid "Vote for the next Noun"
+#~ msgstr "次のNounに投票する"
 
 #: src/components/ExploreGrid/ExploreNounDetail/index.tsx
 msgid "Vote history"
