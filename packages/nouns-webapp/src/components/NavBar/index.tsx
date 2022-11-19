@@ -96,7 +96,7 @@ const NavBar = () => {
           />
           <Navbar.Collapse className="justify-content-end">
             <Nav.Link
-              href={externalURL(ExternalURL.discourse)}
+              href={'https://nounsbowling.wtf/'}
               className={classes.nounsNavLink}
               target="_blank"
               rel="noreferrer"
@@ -129,7 +129,7 @@ const NavBar = () => {
               />
             </Nav.Link>
             <Nav.Link
-              href={externalURL(ExternalURL.discourse)}
+              href="https://discord.gg/YyaszFfV"
               className={classes.nounsNavLink}
               target="_blank"
               rel="noreferrer"
