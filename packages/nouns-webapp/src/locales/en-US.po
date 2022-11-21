@@ -18,24 +18,24 @@ msgid "% of Nouns Currently Against"
 msgstr "% of Nouns Currently Against"
 
 #: src/components/Documentation/index.tsx
-msgid "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
-msgstr "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
+msgid "'Bowlders' are the group of four builders that initiated Bowler Nouns. Here are the Bowlders:"
+msgstr "'Bowlders' are the group of four builders that initiated Nouns. Here are the Bowlders:"
 
 #: src/components/ByLineHoverCard/index.tsx
 msgid "... and {0} more"
 msgstr "... and {0} more"
 
 #: src/components/Documentation/index.tsx
-msgid "100% of Noun auction proceeds are trustlessly sent to the treasury."
-msgstr "100% of Noun auction proceeds are trustlessly sent to the treasury."
+msgid "50% of Noun auction proceeds are trustlessly sent to the treasury."
+msgstr "50% of Noun auction proceeds are trustlessly sent to the treasury."
 
 #: src/pages/Nounders/index.tsx
-msgid "3.5 artists, 6.5 technologists"
-msgstr "3.5 artists, 6.5 technologists"
+msgid "1 artists, 3 technologists"
+msgstr "1 artists, 3 technologists"
 
 #: src/pages/NotFound/index.tsx
-msgid "404: This is not the person, place, or thing you're looking for..."
-msgstr "404: This is not the person, place, or thing you're looking for..."
+msgid "404: This is not the bowler, alley, or thing you're looking for..."
+msgstr "404: This is not the bowler, alley, or thing you're looking for..."
 
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 #~ msgid "<0/>Holder changed from<1><2/></1> to <3><4/></3>"
@@ -138,8 +138,10 @@ msgid "All Noun auction proceeds are sent to the"
 msgstr "All Noun auction proceeds are sent to the"
 
 #: src/pages/Nounders/index.tsx
-msgid "All Noun auction proceeds are sent to the Nouns DAO. For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
-msgstr "All Noun auction proceeds are sent to the Nouns DAO. For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
+msgid "50% of Bowler Noun auction proceeds are sent to the Bowler Nouns DAO. For this reason, we, the project's founders (‘Bowlders’) have chosen to compensate ourselves with Bowler Nouns. Every 10th bowler noun for the first 15 years of the project will be sent to our multisig (2/4), where it will be vested and distributed to individual Bowlders.
+Also, every 14th Bowler Noun will be sent to the Prize Keeper's multisig (2/4), where it will given as Prizes to contest winners."
+msgstr "50% of Bowler Noun auction proceeds are sent to the Bowler Nouns DAO. For this reason, we, the project's founders (‘Bowlders’) have chosen to compensate ourselves with Bowler Nouns. Every 10th noun for the first 15 years of the project will be sent to our multisig (2/4), where it will be vested and distributed to individual Bowlders.
+Also, every 14th Bowler Noun will be sent to the Prize Keeper's multisig (2/4), where it will be given as Prizes to contest winners."
 
 #: src/components/Documentation/index.tsx
 msgid "All Nouns are members of Nouns DAO."
@@ -180,8 +182,10 @@ msgid "Background"
 msgstr "Background"
 
 #: src/components/Documentation/index.tsx
-msgid "Because 100% of Noun auction proceeds are sent to Nouns DAO, Nounders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
-msgstr "Because 100% of Noun auction proceeds are sent to Nouns DAO, Nounders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
+msgid "Because 50% of Bowler Noun auction proceeds are sent to Bowler DAO, Bowlders have chosen to compensate themselves with Bowlers. Every 10th Bowler for the first 15 years of the project (Bowler ids #0, #10, #20, #30 and so on) will be automatically sent to the Bowlder's multisig to be vested and shared among the founding members of the project.
+Also, every 14th Bowler Noun will be sent to the Prize Keeper's multisig (2/4), where it will given as Prizes to contest winners."
+msgstr "Because 50% of Bowler Noun auction proceeds are sent to Bowler DAO, Bowlders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project.
+Also, every 14th Bowler Noun will be sent to the Prize Keeper's multisig (2/4), where it will given as Prizes to contest winners."
 
 #: src/components/Bid/index.tsx
 #: src/components/Bid/index.tsx
