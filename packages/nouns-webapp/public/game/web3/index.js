@@ -1,7 +1,7 @@
 // load network.js to get network/chain id
-document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://niftybowling.io/live/network.js" }));
-document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://niftybowling.io/live/web3/lib/web3modal.js" }));
-document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://niftybowling.io/live/web3/lib/web3.min.js" }));
+document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://bowlernouns.wtf/game/network.js" }));
+document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://bowlernouns.wtf/game/web3/lib/web3modal.js" }));
+document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://bowlernouns.wtf/game/web3/lib/web3.min.js" }));
 document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js" }));
 
 window.web3gl = {
