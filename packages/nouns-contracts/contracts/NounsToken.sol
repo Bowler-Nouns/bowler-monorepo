@@ -30,6 +30,9 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
     // The nounders DAO address (creators org)
     address public noundersDAO;
 
+    // Prize pool multisig address
+    address public prizePool = 0xc819157C79378C82bBcb0f0e917ABA389a397f53;
+
     // An address who has permissions to mint Nouns
     address public minter;
 
@@ -55,7 +58,7 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
     uint256 private _currentNounId;
 
     // IPFS content hash of contract-level metadata
-    string private _contractURIHash = 'QmZi1n79FqWt2tTLwCqiy6nLM6xLGRsEPQ5JmReJQKNNzX';
+    string private _contractURIHash = 'QmSboYvqw3gYXyetCLCZiYvMTyU6dxuNZFsH6Kwt2VERe2';
 
     // OpenSea's Proxy Registry
     IProxyRegistry public immutable proxyRegistry;
@@ -106,7 +109,7 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
         INounsDescriptorMinimal _descriptor,
         INounsSeeder _seeder,
         IProxyRegistry _proxyRegistry
-    ) ERC721('Nouns', 'NOUN') {
+    ) ERC721('Bowler Nouns', 'BOWLER') {
         noundersDAO = _noundersDAO;
         minter = _minter;
         descriptor = _descriptor;
@@ -147,8 +150,11 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
      * @dev Call _mintTo with the to address(es).
      */
     function mint() public override onlyMinter returns (uint256) {
-        if (_currentNounId <= 1820 && _currentNounId % 10 == 0) {
+        if (_currentNounId <= 14600 && _currentNounId % 10 == 0) {
             _mintTo(noundersDAO, _currentNounId++);
+        }
+        if (_currentNounId <= 14600 && _currentNounId % 14 == 0) {
+            _mintTo(prizePool, _currentNounId++);
         }
         return _mintTo(minter, _currentNounId++);
     }
@@ -247,6 +253,14 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
         isSeederLocked = true;
 
         emit SeederLocked();
+    }
+
+    /**
+     * @notice Set the prize pool multi-sig
+     * @dev Only callable by the owner
+     */
+    function setPrizePool(address _prizePool) external onlyOwner {
+        prizePool = _prizePool;
     }
 
     /**
