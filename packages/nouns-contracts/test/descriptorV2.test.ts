@@ -72,8 +72,8 @@ describe('NounsDescriptorV2', () => {
           'ascii',
         ),
       );
-      expect(name).to.equal(`Noun ${i}`);
-      expect(description).to.equal(`Noun ${i} is a member of the Nouns DAO`);
+      expect(name).to.equal(`Bowler Noun ${i}`);
+      expect(description).to.equal(`Bowler Noun ${i} is a member of the Bowler Nouns DAO`);
       expect(image).to.not.be.undefined;
 
       appendFileSync(
