@@ -223,8 +223,20 @@ msgstr "体"
 msgid "Born"
 msgstr "誕生"
 
+#: src/components/Documentation/index.tsx
+msgid "Bowlder's Reward"
+msgstr ""
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler Noun Traits"
+msgstr ""
+
 #: src/components/AuctionActivityNounTitle/index.tsx
 msgid "Bowler Noun {0}"
+msgstr ""
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler Nouns DAO"
 msgstr ""
 
 #: src/components/NounProfileVoteRow/index.tsx
@@ -590,8 +602,8 @@ msgid "Noun Seeder Contract"
 msgstr "Nounシーダー契約"
 
 #: src/components/Documentation/index.tsx
-msgid "Noun Traits"
-msgstr "Nounsの特徴"
+#~ msgid "Noun Traits"
+#~ msgstr "Nounsの特徴"
 
 #: src/components/CurrentDelegatePannel/index.tsx
 msgid "Noun votes are not transferable, but are <0>delegatable</0>, which means you can assign your vote to someone else as long as you own your Noun."
@@ -606,8 +618,8 @@ msgid "Nounder distributions don't interfere with the cadence of 24 hour auction
 msgstr "Nounder配布により24時間オークションの頻度に影響が及ぶことはありません。 NounsはNounderのマルチシグに直接送られ、オークションは次の有効なNouns IDによって予定通り継続されます。"
 
 #: src/components/Documentation/index.tsx
-msgid "Nounder's Reward"
-msgstr "Nounderへの報酬"
+#~ msgid "Nounder's Reward"
+#~ msgstr "Nounderへの報酬"
 
 #: src/components/Documentation/index.tsx
 msgid "Nounders receive rewards in the form of Nouns (10% of supply for first 5 years)."
@@ -633,7 +645,6 @@ msgstr ""
 msgid "Nouns Auction House"
 msgstr "Nounsオークションハウス"
 
-#: src/components/Documentation/index.tsx
 #: src/components/NounderNounContent/index.tsx
 #: src/pages/Governance/index.tsx
 msgid "Nouns DAO"

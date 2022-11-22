@@ -134,7 +134,7 @@ const Documentation = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="2" className={classes.accordionItem}>
             <Accordion.Header className={classes.accordionHeader}>
-              <Trans>Nouns DAO</Trans>
+              <Trans>Bowler Nouns DAO</Trans>
             </Accordion.Header>
             <Accordion.Body>
               <Trans>
@@ -207,7 +207,7 @@ const Documentation = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="4" className={classes.accordionItem}>
             <Accordion.Header className={classes.accordionHeader}>
-              <Trans>Noun Traits</Trans>
+              <Trans>Bowler Noun Traits</Trans>
             </Accordion.Header>
             <Accordion.Body>
               <p>
@@ -291,7 +291,7 @@ const Documentation = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="7" className={classes.accordionItem}>
             <Accordion.Header className={classes.accordionHeader}>
-              <Trans>Nounder's Reward</Trans>
+              <Trans>Bowlder's Reward</Trans>
             </Accordion.Header>
             <Accordion.Body>
               <p>
