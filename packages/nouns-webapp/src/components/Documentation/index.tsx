@@ -40,10 +40,10 @@ const Documentation = () => {
           </h1>
           <p className={classes.aboutText}>
             <Trans>
-              Bowler Nouns are an experimental attempt to improve the development of web3 bowling
-              games. While projects such as {nounsLink} have attempted to bootstrap identity, community,
-              governance, and a treasury that can be used by the community, Bowler Nouns seeks to
-              bootstrap a game project, a gaming community, and a treasury that can be used by the community.
+              Bowler Nouns are an experimental attempt to improve the development of web3 games.
+              While projects such as {nounsLink} have attempted to bootstrap identity, community,
+              governance, and a treasury for the community, Bowler Nouns seeks to
+              bootstrap a game studio, a bowling community, and a treasury that can be used by the community.
             </Trans>
           </p>
           <p className={classes.aboutText} style={{ paddingBottom: '1rem' }}>
@@ -99,7 +99,7 @@ const Documentation = () => {
                 </li>
                 <li>
                   <Trans>
-                    One in fourteen Bowler Nouns is reserved for prize contests (7% of supply for first 15 years)
+                    One in 14 Bowler Nouns is reserved for prize contests (7% of supply for first 15 years)
                   </Trans>
                 </li>
               </ul>
@@ -117,7 +117,7 @@ const Documentation = () => {
                   distribution mechanism, auctioning one Bowler Noun every 12 hours, forever. 50% of
                   auction proceeds (ETH) are automatically deposited in the Bowler DAO treasury,
                   where they are governed by Bowler Noun owners. 50% of auction proceeds (ETH) are
-                  sent to the game studio multi-sig to fund game development operations.
+                  sent to the game studio multi-sig to fund gaming operations.
                 </Trans>
               </p>
 
@@ -144,8 +144,8 @@ const Documentation = () => {
               <Trans>
                 Bowler DAO utilizes a fork of {compoundGovLink} and is the main governing body of the
                 Bowler Nouns ecosystem. The Bowler DAO treasury receives 50% of ETH proceeds from daily
-                Bowler Noun auctions. Each Bowler Noun is an irrevocable member of Bowler DAO and entitled to one
-                vote in all governance matters. Bowler Noun votes are non-transferable (if you sell your
+                Bowler Noun auctions. Each Bowler Noun is an irrevocable member of Bowler DAO and entitled
+                to one vote in all governance matters. Votes are non-transferable (if you sell your
                 Bowler Noun the vote goes with it) but delegatable, which means you can assign your vote to
                 someone else as long as you own your Bowler Noun.
               </Trans>
@@ -168,10 +168,7 @@ const Documentation = () => {
               <ul>
                 <li>unequally withdraw the treasury for personal gain</li>
                 <li>bribe voters to facilitate withdraws of the treasury for personal gain</li>
-                <li>
-                  attempt to alter Bowler Noun auction cadence for the purpose of maintaining or acquiring
-                  a voting majority
-                </li>
+                <li>alter auction cadence for the purpose of maintaining or acquiring a voting majority</li>
                 <li>make upgrades to critical smart contracts without undergoing an audit</li>
                 <li>propose game features which the game dev team is incapable of fulfilling</li>
               </ul>
