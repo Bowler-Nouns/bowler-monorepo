@@ -22,8 +22,12 @@ msgstr "% of Nouns Currently Against"
 #~ msgstr "'Bowlders' are the group of four builders that initiated Nouns. Here are the Bowlders:"
 
 #: src/components/Documentation/index.tsx
-msgid "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
-msgstr "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
+msgid "'Founders' are the group of five builders that initiated Bowler Nouns. Here are the Founders:"
+msgstr "'Founders' are the group of five builders that initiated Bowler Nouns. Here are the Founders:"
+
+#: src/components/Documentation/index.tsx
+#~ msgid "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
+#~ msgstr "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
 
 #: src/components/ByLineHoverCard/index.tsx
 msgid "... and {0} more"
@@ -34,8 +38,8 @@ msgstr "... and {0} more"
 #~ msgstr "1 artists, 3 technologists"
 
 #: src/components/Documentation/index.tsx
-msgid "100% of Noun auction proceeds are trustlessly sent to the treasury."
-msgstr "100% of Noun auction proceeds are trustlessly sent to the treasury."
+#~ msgid "100% of Noun auction proceeds are trustlessly sent to the treasury."
+#~ msgstr "100% of Noun auction proceeds are trustlessly sent to the treasury."
 
 #: src/pages/Nounders/index.tsx
 msgid "3.5 artists, 6.5 technologists"
@@ -52,6 +56,14 @@ msgstr "404: This is not the person, place, or thing you're looking for..."
 #: src/pages/Nounders/index.tsx
 #~ msgid "50% of Bowler Noun auction proceeds are sent to the Bowler Nouns DAO. For this reason, we, the project's founders (‘Bowlders’) have chosen to compensate ourselves with Bowler Nouns. Every 10th bowler noun for the first 15 years of the project will be sent to our multisig (2/4), where it will be vested and distributed to individual Bowlders."
 #~ msgstr "50% of Bowler Noun auction proceeds are sent to the Bowler Nouns DAO. For this reason, we, the project's founders (‘Bowlders’) have chosen to compensate ourselves with Bowler Nouns. Every 10th noun for the first 15 years of the project will be sent to our multisig (2/4), where it will be vested and distributed to individual Bowlders."
+
+#: src/components/Documentation/index.tsx
+msgid "50% of Bowler Noun auction proceeds are sent to the game studio multi-sig"
+msgstr "50% of Bowler Noun auction proceeds are sent to the game studio multi-sig"
+
+#: src/components/Documentation/index.tsx
+msgid "50% of Bowler Noun auction proceeds are trustlessly sent to the treasury"
+msgstr "50% of Bowler Noun auction proceeds are trustlessly sent to the treasury"
 
 #: src/components/Documentation/index.tsx
 #~ msgid "50% of Noun auction proceeds are trustlessly sent to the treasury."
@@ -153,6 +165,10 @@ msgstr "Addresses"
 msgid "Against"
 msgstr "Against"
 
+#: src/components/Documentation/index.tsx
+msgid "All Bowler Nouns are members of Bowler DAO"
+msgstr "All Bowler Nouns are members of Bowler DAO"
+
 #: src/components/NounderNounContent/index.tsx
 msgid "All Noun auction proceeds are sent to the"
 msgstr "All Noun auction proceeds are sent to the"
@@ -162,8 +178,8 @@ msgid "All Noun auction proceeds are sent to the Nouns DAO. For this reason, we,
 msgstr "All Noun auction proceeds are sent to the Nouns DAO. For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
 
 #: src/components/Documentation/index.tsx
-msgid "All Nouns are members of Nouns DAO."
-msgstr "All Nouns are members of Nouns DAO."
+#~ msgid "All Nouns are members of Nouns DAO."
+#~ msgstr "All Nouns are members of Nouns DAO."
 
 #: src/pages/CreateProposal/index.tsx
 msgid "All Proposals"
@@ -178,8 +194,12 @@ msgid "Arguments"
 msgstr "Arguments"
 
 #: src/components/Documentation/index.tsx
-msgid "Artwork is generative and stored directly on-chain (not IPFS)."
-msgstr "Artwork is generative and stored directly on-chain (not IPFS)."
+msgid "Artwork is generative and stored directly on-chain (not IPFS)"
+msgstr "Artwork is generative and stored directly on-chain (not IPFS)"
+
+#: src/components/Documentation/index.tsx
+#~ msgid "Artwork is generative and stored directly on-chain (not IPFS)."
+#~ msgstr "Artwork is generative and stored directly on-chain (not IPFS)."
 
 #: src/components/AuctionTimer/index.tsx
 #: src/components/AuctionTimer/index.tsx
@@ -200,12 +220,16 @@ msgid "Background"
 msgstr "Background"
 
 #: src/components/Documentation/index.tsx
-msgid "Because 100% of Noun auction proceeds are sent to Nouns DAO, Nounders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
-msgstr "Because 100% of Noun auction proceeds are sent to Nouns DAO, Nounders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
+#~ msgid "Because 100% of Noun auction proceeds are sent to Nouns DAO, Nounders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
+#~ msgstr "Because 100% of Noun auction proceeds are sent to Nouns DAO, Nounders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
 
 #: src/components/Documentation/index.tsx
 #~ msgid "Because 50% of Bowler Noun auction proceeds are sent to Bowler DAO, Bowlders have chosen to compensate themselves with Bowlers. Every 10th Bowler for the first 15 years of the project (Bowler ids #0, #10, #20, #30 and so on) will be automatically sent to the Bowlder's multisig to be vested and shared among the founding members of the project."
 #~ msgstr "Because 50% of Bowler Noun auction proceeds are sent to Bowler DAO, Bowlders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
+
+#: src/components/Documentation/index.tsx
+msgid "Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Founders have chosen to compensate themselves with Bowler Nouns. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Founder's multisig to be vested and shared among the founding members of the project."
+msgstr "Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Founders have chosen to compensate themselves with Bowler Nouns. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Founder's multisig to be vested and shared among the founding members of the project."
 
 #: src/components/Bid/index.tsx
 #: src/components/Bid/index.tsx
@@ -243,8 +267,20 @@ msgid "Born"
 msgstr "Born"
 
 #: src/components/Documentation/index.tsx
-msgid "Bowlder's Reward"
-msgstr "Bowlder's Reward"
+#~ msgid "Bowlder's Reward"
+#~ msgstr "Bowlder's Reward"
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler DAO"
+msgstr "Bowler DAO"
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler DAO uses a fork of {compoundGovLink}"
+msgstr "Bowler DAO uses a fork of {compoundGovLink}"
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Bowler Nouns ecosystem. The Bowler DAO treasury receives 50% of ETH proceeds from daily Bowler Noun auctions. Each Bowler Noun is an irrevocable member of Bowler DAO and entitled to one vote in all governance matters. Votes are non-transferable (if you sell your Bowler Noun the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Bowler Noun."
+msgstr "Bowler DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Bowler Nouns ecosystem. The Bowler DAO treasury receives 50% of ETH proceeds from daily Bowler Noun auctions. Each Bowler Noun is an irrevocable member of Bowler DAO and entitled to one vote in all governance matters. Votes are non-transferable (if you sell your Bowler Noun the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Bowler Noun."
 
 #: src/components/Documentation/index.tsx
 msgid "Bowler Noun Traits"
@@ -255,8 +291,24 @@ msgid "Bowler Noun {0}"
 msgstr "Bowler Noun {0}"
 
 #: src/components/Documentation/index.tsx
-msgid "Bowler Nouns DAO"
-msgstr "Bowler Nouns DAO"
+#~ msgid "Bowler Nouns DAO"
+#~ msgstr "Bowler Nouns DAO"
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler Nouns are an experimental attempt to improve the development of web3 games. While projects such as {nounsLink} have attempted to bootstrap identity, community, governance, and a treasury for the community, Bowler Nouns seeks to bootstrap a game studio, a bowling community, and a treasury that can be used by the community."
+msgstr "Bowler Nouns are an experimental attempt to improve the development of web3 games. While projects such as {nounsLink} have attempted to bootstrap identity, community, governance, and a treasury for the community, Bowler Nouns seeks to bootstrap a game studio, a bowling community, and a treasury that can be used by the community."
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler Nouns are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Bowler Noun trait scarcity, which makes all Bowler Nouns equally rare. As of this writing, Bowler Nouns are made up of:"
+msgstr "Bowler Nouns are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Bowler Noun trait scarcity, which makes all Bowler Nouns equally rare. As of this writing, Bowler Nouns are made up of:"
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler Nouns are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Bowler Noun parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
+msgstr "Bowler Nouns are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Bowler Noun parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler Nouns artwork is in the {publicDomainLink}"
+msgstr "Bowler Nouns artwork is in the {publicDomainLink}"
 
 #: src/components/NounProfileVoteRow/index.tsx
 #: src/components/ProposalStatus/index.tsx
@@ -315,8 +367,8 @@ msgid "Connect your wallet"
 msgstr "Connect your wallet"
 
 #: src/components/Documentation/index.tsx
-msgid "Consequently, the Nouns Foundation anticipates being the steward of the veto power until Nouns DAO is ready to implement an alternative, and therefore wishes to clarify the conditions under which it would exercise this power."
-msgstr "Consequently, the Nouns Foundation anticipates being the steward of the veto power until Nouns DAO is ready to implement an alternative, and therefore wishes to clarify the conditions under which it would exercise this power."
+#~ msgid "Consequently, the Nouns Foundation anticipates being the steward of the veto power until Nouns DAO is ready to implement an alternative, and therefore wishes to clarify the conditions under which it would exercise this power."
+#~ msgstr "Consequently, the Nouns Foundation anticipates being the steward of the veto power until Nouns DAO is ready to implement an alternative, and therefore wishes to clarify the conditions under which it would exercise this power."
 
 #: src/components/CreateProposalButton/index.tsx
 #: src/pages/CreateProposal/index.tsx
@@ -324,8 +376,8 @@ msgid "Create Proposal"
 msgstr "Create Proposal"
 
 #: src/components/Documentation/index.tsx
-msgid "Cryptopunks"
-msgstr "Cryptopunks"
+#~ msgid "Cryptopunks"
+#~ msgstr "Cryptopunks"
 
 #: src/components/CurrentDelegatePannel/index.tsx
 msgid "Current Delegate"
@@ -412,8 +464,12 @@ msgid "EVERY DAY,"
 msgstr "EVERY DAY,"
 
 #: src/components/Documentation/index.tsx
-msgid "Each time an auction is settled, the settlement transaction will also cause a new Noun to be minted and a new 24 hour auction to begin."
-msgstr "Each time an auction is settled, the settlement transaction will also cause a new Noun to be minted and a new 24 hour auction to begin."
+msgid "Each time an auction is settled, the settlement transaction will also cause a new Bowler Noun to be minted and a new 12 hour auction to begin."
+msgstr "Each time an auction is settled, the settlement transaction will also cause a new Bowler Noun to be minted and a new 12 hour auction to begin."
+
+#: src/components/Documentation/index.tsx
+#~ msgid "Each time an auction is settled, the settlement transaction will also cause a new Noun to be minted and a new 24 hour auction to begin."
+#~ msgstr "Each time an auction is settled, the settlement transaction will also cause a new Noun to be minted and a new 24 hour auction to begin."
 
 #: src/pages/Vote/index.tsx
 msgid "Ended"
@@ -507,6 +563,18 @@ msgstr "For this reason, we, the project's founders (‘Nounders’) have chosen
 #~ msgid "Forums"
 #~ msgstr "Forums"
 
+#: src/components/Documentation/index.tsx
+msgid "Founder and Prize distributions don't interfere with the cadence of 12 hour auctions. Bowler Nouns are sent directly to the Founder's and Prizekeeper's multisigs, and auctions continue on schedule with the next available Bowler Noun ID."
+msgstr "Founder and Prize distributions don't interfere with the cadence of 12 hour auctions. Bowler Nouns are sent directly to the Founder's and Prizekeeper's multisigs, and auctions continue on schedule with the next available Bowler Noun ID."
+
+#: src/components/Documentation/index.tsx
+msgid "Founder's Reward"
+msgstr "Founder's Reward"
+
+#: src/components/Documentation/index.tsx
+msgid "Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)"
+msgstr "Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)"
+
 #: src/components/ProposalTransactionFormModal/index.tsx
 msgid "Function"
 msgstr "Function"
@@ -529,8 +597,12 @@ msgid "Governance"
 msgstr "Governance"
 
 #: src/components/Documentation/index.tsx
-msgid "Governance ‘Slow Start’"
-msgstr "Governance ‘Slow Start’"
+#~ msgid "Governance ‘Slow Start’"
+#~ msgstr "Governance ‘Slow Start’"
+
+#: src/components/Documentation/index.tsx
+msgid "Governance ‘Veto Power’"
+msgstr "Governance ‘Veto Power’"
 
 #: src/components/DelegationCandidateInfo/index.tsx
 msgid "Has"
@@ -575,8 +647,12 @@ msgid "Learn more"
 msgstr "Learn more"
 
 #: src/components/Documentation/index.tsx
-msgid "Learn more below, or start creating Nouns off-chain using the {playgroundLink}."
-msgstr "Learn more below, or start creating Nouns off-chain using the {playgroundLink}."
+msgid "Learn more below, or start creating Bowler Nouns off-chain using the {playgroundLink}."
+msgstr "Learn more below, or start creating Bowler Nouns off-chain using the {playgroundLink}."
+
+#: src/components/Documentation/index.tsx
+#~ msgid "Learn more below, or start creating Nouns off-chain using the {playgroundLink}."
+#~ msgstr "Learn more below, or start creating Nouns off-chain using the {playgroundLink}."
 
 #: src/components/NounInfoRowHolder/index.tsx
 msgid "Loading..."
@@ -599,8 +675,8 @@ msgid "No arguments required"
 msgstr "No arguments required"
 
 #: src/components/Documentation/index.tsx
-msgid "No explicit rules exist for attribute scarcity; all Nouns are equally rare."
-msgstr "No explicit rules exist for attribute scarcity; all Nouns are equally rare."
+#~ msgid "No explicit rules exist for attribute scarcity; all Nouns are equally rare."
+#~ msgstr "No explicit rules exist for attribute scarcity; all Nouns are equally rare."
 
 #: src/components/Proposals/index.tsx
 msgid "No proposals found"
@@ -633,16 +709,16 @@ msgstr "Noun votes are not transferable, but are <0>delegatable</0>, which means
 #~ msgstr "Noun {0}"
 
 #: src/components/Documentation/index.tsx
-msgid "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
-msgstr "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
+#~ msgid "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
+#~ msgstr "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
 
 #: src/components/Documentation/index.tsx
 #~ msgid "Nounder's Reward"
 #~ msgstr "Nounder's Reward"
 
 #: src/components/Documentation/index.tsx
-msgid "Nounders receive rewards in the form of Nouns (10% of supply for first 5 years)."
-msgstr "Nounders receive rewards in the form of Nouns (10% of supply for first 5 years)."
+#~ msgid "Nounders receive rewards in the form of Nouns (10% of supply for first 5 years)."
+#~ msgstr "Nounders receive rewards in the form of Nouns (10% of supply for first 5 years)."
 
 #: src/components/Documentation/index.tsx
 #~ msgid "Nounders will proveably revoke this veto right when they deem it safe to do so. This decision will be based on a healthy Noun distribution and a community that is engaged in the governance process."
@@ -652,6 +728,7 @@ msgstr "Nounders receive rewards in the form of Nouns (10% of supply for first 5
 msgid "Nounders' Reward"
 msgstr "Nounders' Reward"
 
+#: src/components/Documentation/index.tsx
 #: src/pages/Governance/index.tsx
 msgid "Nouns"
 msgstr "Nouns"
@@ -670,32 +747,32 @@ msgid "Nouns DAO"
 msgstr "Nouns DAO"
 
 #: src/components/Documentation/index.tsx
-msgid "Nouns DAO uses a fork of {compoundGovLink}."
-msgstr "Nouns DAO uses a fork of {compoundGovLink}."
+#~ msgid "Nouns DAO uses a fork of {compoundGovLink}."
+#~ msgstr "Nouns DAO uses a fork of {compoundGovLink}."
 
 #: src/components/Documentation/index.tsx
-msgid "Nouns DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Nouns ecosystem. The Nouns DAO treasury receives 100% of ETH proceeds from daily Noun auctions. Each Noun is an irrevocable member of Nouns DAO and entitled to one vote in all governance matters. Noun votes are non-transferable (if you sell your Noun the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Noun."
-msgstr "Nouns DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Nouns ecosystem. The Nouns DAO treasury receives 100% of ETH proceeds from daily Noun auctions. Each Noun is an irrevocable member of Nouns DAO and entitled to one vote in all governance matters. Noun votes are non-transferable (if you sell your Noun the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Noun."
+#~ msgid "Nouns DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Nouns ecosystem. The Nouns DAO treasury receives 100% of ETH proceeds from daily Noun auctions. Each Noun is an irrevocable member of Nouns DAO and entitled to one vote in all governance matters. Noun votes are non-transferable (if you sell your Noun the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Noun."
+#~ msgstr "Nouns DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Nouns ecosystem. The Nouns DAO treasury receives 100% of ETH proceeds from daily Noun auctions. Each Noun is an irrevocable member of Nouns DAO and entitled to one vote in all governance matters. Noun votes are non-transferable (if you sell your Noun the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Noun."
 
 #: src/pages/Playground/index.tsx
 msgid "Nouns Protocol"
 msgstr "Nouns Protocol"
 
 #: src/components/Documentation/index.tsx
-msgid "Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as {cryptopunksLink} have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community."
-msgstr "Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as {cryptopunksLink} have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community."
+#~ msgid "Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as {cryptopunksLink} have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community."
+#~ msgstr "Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as {cryptopunksLink} have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community."
 
 #: src/components/Documentation/index.tsx
-msgid "Nouns are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Noun trait scarcity, which makes all Nouns equally rare. As of this writing, Nouns are made up of:"
-msgstr "Nouns are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Noun trait scarcity, which makes all Nouns equally rare. As of this writing, Nouns are made up of:"
+#~ msgid "Nouns are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Noun trait scarcity, which makes all Nouns equally rare. As of this writing, Nouns are made up of:"
+#~ msgstr "Nouns are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Noun trait scarcity, which makes all Nouns equally rare. As of this writing, Nouns are made up of:"
 
 #: src/components/Documentation/index.tsx
-msgid "Nouns are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Noun parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
-msgstr "Nouns are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Noun parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
+#~ msgid "Nouns are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Noun parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
+#~ msgstr "Nouns are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Noun parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
 
 #: src/components/Documentation/index.tsx
-msgid "Nouns artwork is in the {publicDomainLink}."
-msgstr "Nouns artwork is in the {publicDomainLink}."
+#~ msgid "Nouns artwork is in the {publicDomainLink}."
+#~ msgstr "Nouns artwork is in the {publicDomainLink}."
 
 #: src/pages/Governance/index.tsx
 msgid "Nouns govern <0>Nouns DAO</0>. Nouns can vote on proposals or delegate their vote to a third party. A minimum of <1>{nounsRequired} {0}</1> is required to submit proposals."
@@ -714,12 +791,24 @@ msgid "On-Chain Artwork"
 msgstr "On-Chain Artwork"
 
 #: src/components/Documentation/index.tsx
-msgid "One Noun is equal to one vote."
-msgstr "One Noun is equal to one vote."
+msgid "One Bowler Noun is equal to one vote"
+msgstr "One Bowler Noun is equal to one vote"
 
 #: src/components/Documentation/index.tsx
-msgid "One Noun is trustlessly auctioned every 24 hours, forever."
-msgstr "One Noun is trustlessly auctioned every 24 hours, forever."
+msgid "One Bowler Noun is trustlessly auctioned every 12 hours, forever"
+msgstr "One Bowler Noun is trustlessly auctioned every 12 hours, forever"
+
+#: src/components/Documentation/index.tsx
+#~ msgid "One Noun is equal to one vote."
+#~ msgstr "One Noun is equal to one vote."
+
+#: src/components/Documentation/index.tsx
+#~ msgid "One Noun is trustlessly auctioned every 24 hours, forever."
+#~ msgstr "One Noun is trustlessly auctioned every 24 hours, forever."
+
+#: src/components/Documentation/index.tsx
+msgid "One in 14 Bowler Nouns is reserved for prize contests (7% of supply for first 15 years)"
+msgstr "One in 14 Bowler Nouns is reserved for prize contests (7% of supply for first 15 years)"
 
 #: src/pages/Playground/index.tsx
 msgid "Only 32x32 PNG images are accepted"
@@ -854,8 +943,12 @@ msgid "Settled auction successfully!"
 msgstr "Settled auction successfully!"
 
 #: src/components/Documentation/index.tsx
-msgid "Settlement of one auction kicks off the next."
-msgstr "Settlement of one auction kicks off the next."
+msgid "Settlement of one auction kicks off the next"
+msgstr "Settlement of one auction kicks off the next"
+
+#: src/components/Documentation/index.tsx
+#~ msgid "Settlement of one auction kicks off the next."
+#~ msgstr "Settlement of one auction kicks off the next."
 
 #: src/components/ProfileActivityFeed/index.tsx
 #~ msgid "Show all {0} events"
@@ -940,8 +1033,20 @@ msgid "Thank you for voting."
 msgstr "Thank you for voting."
 
 #: src/components/Documentation/index.tsx
-msgid "The Noun Seeder contract is used to determine Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Nouns DAO to prevent any future updates. Currently, Noun traits are determined using pseudo-random number generation:"
-msgstr "The Noun Seeder contract is used to determine Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Nouns DAO to prevent any future updates. Currently, Noun traits are determined using pseudo-random number generation:"
+msgid "The Bowler Nouns Auction Contract will act as a self-sufficient NFT generation and distribution mechanism, auctioning one Bowler Noun every 12 hours, forever. 50% of auction proceeds (ETH) are automatically deposited in the Bowler DAO treasury, where they are governed by Bowler Noun owners. 50% of auction proceeds (ETH) are sent to the game studio multi-sig to fund gaming operations."
+msgstr "The Bowler Nouns Auction Contract will act as a self-sufficient NFT generation and distribution mechanism, auctioning one Bowler Noun every 12 hours, forever. 50% of auction proceeds (ETH) are automatically deposited in the Bowler DAO treasury, where they are governed by Bowler Noun owners. 50% of auction proceeds (ETH) are sent to the game studio multi-sig to fund gaming operations."
+
+#: src/components/Documentation/index.tsx
+msgid "The Bowler Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Bowler Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Bowler DAO or the Bowler Nouns Foundation, including (but not necessarily limited to) proposals that:"
+msgstr "The Bowler Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Bowler Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Bowler DAO or the Bowler Nouns Foundation, including (but not necessarily limited to) proposals that:"
+
+#: src/components/Documentation/index.tsx
+msgid "The Noun Seeder contract is used to determine Bowler Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Bowler DAO to prevent any future updates."
+msgstr "The Noun Seeder contract is used to determine Bowler Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Bowler DAO to prevent any future updates."
+
+#: src/components/Documentation/index.tsx
+#~ msgid "The Noun Seeder contract is used to determine Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Nouns DAO to prevent any future updates. Currently, Noun traits are determined using pseudo-random number generation:"
+#~ msgstr "The Noun Seeder contract is used to determine Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Nouns DAO to prevent any future updates. Currently, Noun traits are determined using pseudo-random number generation:"
 
 #: src/pages/Nounders/index.tsx
 msgid "The Nounders"
@@ -952,16 +1057,16 @@ msgid "The Nounders reward is intended as compensation for our pre and post-laun
 msgstr "The Nounders reward is intended as compensation for our pre and post-launch contributions to the project, and to help us participate meaningfully in governance as the project matures. Since there are 10 Nounders, after 5 years each Nounder could receive up to 1% of the Noun supply."
 
 #: src/components/Documentation/index.tsx
-msgid "The Nouns Auction Contract will act as a self-sufficient Noun generation and distribution mechanism, auctioning one Noun every 24 hours, forever. 100% of auction proceeds (ETH) are automatically deposited in the Nouns DAO treasury, where they are governed by Noun owners."
-msgstr "The Nouns Auction Contract will act as a self-sufficient Noun generation and distribution mechanism, auctioning one Noun every 24 hours, forever. 100% of auction proceeds (ETH) are automatically deposited in the Nouns DAO treasury, where they are governed by Noun owners."
+#~ msgid "The Nouns Auction Contract will act as a self-sufficient Noun generation and distribution mechanism, auctioning one Noun every 24 hours, forever. 100% of auction proceeds (ETH) are automatically deposited in the Nouns DAO treasury, where they are governed by Noun owners."
+#~ msgstr "The Nouns Auction Contract will act as a self-sufficient Noun generation and distribution mechanism, auctioning one Noun every 24 hours, forever. 100% of auction proceeds (ETH) are automatically deposited in the Nouns DAO treasury, where they are governed by Noun owners."
 
 #: src/components/Documentation/index.tsx
-msgid "The Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Nouns DAO or the Nouns Foundation, including (but not necessarily limited to) proposals that:"
-msgstr "The Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Nouns DAO or the Nouns Foundation, including (but not necessarily limited to) proposals that:"
+#~ msgid "The Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Nouns DAO or the Nouns Foundation, including (but not necessarily limited to) proposals that:"
+#~ msgstr "The Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Nouns DAO or the Nouns Foundation, including (but not necessarily limited to) proposals that:"
 
 #: src/components/Documentation/index.tsx
-msgid "The Nouns community has undertaken a preliminary exploration of proposal veto alternatives (‘rage quit’ etc.), but it is now clear that this is a difficult problem that will require significantly more research, development and testing before a satisfactory solution can be implemented."
-msgstr "The Nouns community has undertaken a preliminary exploration of proposal veto alternatives (‘rage quit’ etc.), but it is now clear that this is a difficult problem that will require significantly more research, development and testing before a satisfactory solution can be implemented."
+#~ msgid "The Nouns community has undertaken a preliminary exploration of proposal veto alternatives (‘rage quit’ etc.), but it is now clear that this is a difficult problem that will require significantly more research, development and testing before a satisfactory solution can be implemented."
+#~ msgstr "The Nouns community has undertaken a preliminary exploration of proposal veto alternatives (‘rage quit’ etc.), but it is now clear that this is a difficult problem that will require significantly more research, development and testing before a satisfactory solution can be implemented."
 
 #: src/components/DynamicQuorumInfoModal/index.tsx
 msgid "The Quorum (minimum number of For votes required to pass a proposal) is set as a function of the number of Against votes a proposal has recieved. It increases quadratically as a function of the % of Nouns voting against a prop, varying between Min Quorum and Max Quorum."
@@ -980,12 +1085,16 @@ msgid "The playground was built using the {nounsProtocolLink}. Noun's traits are
 msgstr "The playground was built using the {nounsProtocolLink}. Noun's traits are determined by the Noun Seed. The seed was generated using {nounsAssetsLink} and rendered using the {nounsSDKLink}."
 
 #: src/components/Documentation/index.tsx
-msgid "The proposal veto right was initially envisioned as a temporary solution to the problem of ‘51% attacks’ on the Nouns DAO treasury. While Nounders initially believed that a healthy distribution of Nouns would be sufficient protection for the DAO, a more complete understanding of the incentives and risks has led to general consensus within the Nounders, the Nouns Foundation, and the wider community that a more robust game-theoretic solution should be implemented before the right is removed."
-msgstr "The proposal veto right was initially envisioned as a temporary solution to the problem of ‘51% attacks’ on the Nouns DAO treasury. While Nounders initially believed that a healthy distribution of Nouns would be sufficient protection for the DAO, a more complete understanding of the incentives and risks has led to general consensus within the Nounders, the Nouns Foundation, and the wider community that a more robust game-theoretic solution should be implemented before the right is removed."
+#~ msgid "The proposal veto right was initially envisioned as a temporary solution to the problem of ‘51% attacks’ on the Nouns DAO treasury. While Nounders initially believed that a healthy distribution of Nouns would be sufficient protection for the DAO, a more complete understanding of the incentives and risks has led to general consensus within the Nounders, the Nouns Foundation, and the wider community that a more robust game-theoretic solution should be implemented before the right is removed."
+#~ msgstr "The proposal veto right was initially envisioned as a temporary solution to the problem of ‘51% attacks’ on the Nouns DAO treasury. While Nounders initially believed that a healthy distribution of Nouns would be sufficient protection for the DAO, a more complete understanding of the incentives and risks has led to general consensus within the Nounders, the Nouns Foundation, and the wider community that a more robust game-theoretic solution should be implemented before the right is removed."
 
 #: src/components/Documentation/index.tsx
-msgid "The treasury is controlled exclusively by Nouns via governance."
-msgstr "The treasury is controlled exclusively by Nouns via governance."
+msgid "The treasury is controlled exclusively by Bowler Nouns via governance"
+msgstr "The treasury is controlled exclusively by Bowler Nouns via governance"
+
+#: src/components/Documentation/index.tsx
+#~ msgid "The treasury is controlled exclusively by Nouns via governance."
+#~ msgstr "The treasury is controlled exclusively by Nouns via governance."
 
 #: src/components/Documentation/index.tsx
 msgid "There are unfortunately no algorithmic solutions for making these determinations in advance (if there were, the veto would not be required), and proposals must be considered on a case by case basis."
@@ -1016,8 +1125,12 @@ msgid "Tip:"
 msgstr "Tip:"
 
 #: src/components/Documentation/index.tsx
-msgid "Trait generation is not truly random. Traits can be predicted when minting a Noun on the pending block."
-msgstr "Trait generation is not truly random. Traits can be predicted when minting a Noun on the pending block."
+msgid "To encourage proliferation of Bowler Nouns, Founders have chosen to reserve one Bowler Noun per week for prizes. Every 14th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #15, #29, #43 and so on) will be automatically sent to the Prizekeeper's multisig to be granted as prizes to outstanding community members."
+msgstr "To encourage proliferation of Bowler Nouns, Founders have chosen to reserve one Bowler Noun per week for prizes. Every 14th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #15, #29, #43 and so on) will be automatically sent to the Prizekeeper's multisig to be granted as prizes to outstanding community members."
+
+#: src/components/Documentation/index.tsx
+#~ msgid "Trait generation is not truly random. Traits can be predicted when minting a Noun on the pending block."
+#~ msgstr "Trait generation is not truly random. Traits can be predicted when minting a Noun on the pending block."
 
 #: src/components/Bid/index.tsx
 #: src/components/Bid/index.tsx
@@ -1150,8 +1263,12 @@ msgid "What now?"
 msgstr "What now?"
 
 #: src/components/Documentation/index.tsx
-msgid "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Nouns as long as Ethereum is operational and there are interested bidders."
-msgstr "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Nouns as long as Ethereum is operational and there are interested bidders."
+msgid "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Bowler Nouns as long as Ethereum is operational and there are interested bidders."
+msgstr "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Bowler Nouns as long as Ethereum is operational and there are interested bidders."
+
+#: src/components/Documentation/index.tsx
+#~ msgid "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Nouns as long as Ethereum is operational and there are interested bidders."
+#~ msgstr "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Nouns as long as Ethereum is operational and there are interested bidders."
 
 #: src/components/DelegationCandidateInfo/index.tsx
 msgid "Will have"
@@ -1179,8 +1296,12 @@ msgid "You already have an active or pending proposal"
 msgstr "You already have an active or pending proposal"
 
 #: src/components/Documentation/index.tsx
-msgid "You can experiment with off-chain Noun generation at the {playgroundLink}."
-msgstr "You can experiment with off-chain Noun generation at the {playgroundLink}."
+msgid "You can experiment with off-chain Bowler Noun generation at the {playgroundLink}."
+msgstr "You can experiment with off-chain Bowler Noun generation at the {playgroundLink}."
+
+#: src/components/Documentation/index.tsx
+#~ msgid "You can experiment with off-chain Noun generation at the {playgroundLink}."
+#~ msgstr "You can experiment with off-chain Noun generation at the {playgroundLink}."
 
 #: src/components/SettleManuallyBtn/index.tsx
 msgid "You can settle manually in 1 minute"
@@ -1235,8 +1356,8 @@ msgid "Your <0>{availableVotes}</0> votes have been delegated to a new account."
 msgstr "Your <0>{availableVotes}</0> votes have been delegated to a new account."
 
 #: src/components/Documentation/index.tsx
-msgid "accessories (140)"
-msgstr "accessories (140)"
+#~ msgid "accessories (140)"
+#~ msgstr "accessories (140)"
 
 #: src/components/AuctionTimer/index.tsx
 msgid "at"
@@ -1251,20 +1372,36 @@ msgid "backgrounds (2)"
 msgstr "backgrounds (2)"
 
 #: src/components/Documentation/index.tsx
-msgid "bodies (30)"
-msgstr "bodies (30)"
+msgid "balls (8)"
+msgstr "balls (8)"
 
 #: src/components/Documentation/index.tsx
-msgid "glasses (23)"
-msgstr "glasses (23)"
+#~ msgid "bodies (30)"
+#~ msgstr "bodies (30)"
+
+#: src/components/Documentation/index.tsx
+msgid "bodies (32)"
+msgstr "bodies (32)"
+
+#: src/components/Documentation/index.tsx
+msgid "glasses (12)"
+msgstr "glasses (12)"
+
+#: src/components/Documentation/index.tsx
+#~ msgid "glasses (23)"
+#~ msgstr "glasses (23)"
 
 #: src/components/AuctionTimer/index.tsx
 msgid "h"
 msgstr "h"
 
 #: src/components/Documentation/index.tsx
-msgid "heads (242)"
-msgstr "heads (242)"
+#~ msgid "heads (242)"
+#~ msgstr "heads (242)"
+
+#: src/components/Documentation/index.tsx
+msgid "heads (42)"
+msgstr "heads (42)"
 
 #: src/components/AuctionTimer/index.tsx
 msgid "m"
