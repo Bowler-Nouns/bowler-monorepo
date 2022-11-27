@@ -152,6 +152,10 @@ type Account @entity {
   "Total amount of Nouns ever held by this address expressed as a BigInt normalized value for the Nouns ERC721 Token"
   totalTokensHeld: BigInt!
 
+  winningBidCount: BigInt!
+
+  totalWinningBid: BigInt!
+
   "The Nouns owned by this account"
   nouns: [Noun!]!
 }
@@ -314,6 +318,9 @@ type Governance @entity {
 
   "Number of proposals currently queued for execution"
   proposalsQueued: BigInt!
+
+  "Total bid"
+  totalBid: BigInt!
 }
 
 type DynamicQuorumParams @entity {

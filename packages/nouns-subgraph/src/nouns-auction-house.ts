@@ -1,3 +1,5 @@
+/* eslint-disable prefer-const */
+/* eslint-disable @typescript-eslint/no-inferrable-types */
 import { BigInt, log } from '@graphprotocol/graph-ts';
 import {
   AuctionBid,
@@ -6,7 +8,7 @@ import {
   AuctionSettled,
 } from './types/NounsAuctionHouse/NounsAuctionHouse';
 import { Auction, Noun, Bid } from './types/schema';
-import { getOrCreateAccount } from './utils/helpers';
+import { getOrCreateAccount, getGovernanceEntity } from './utils/helpers';
 
 export function handleAuctionCreated(event: AuctionCreated): void {
   let nounId = event.params.nounId.toString();
@@ -90,4 +92,17 @@ export function handleAuctionSettled(event: AuctionSettled): void {
 
   auction.settled = true;
   auction.save();
+
+  // settler
+  let winner = event.params.winner.toHex();
+  let winning = getOrCreateAccount(winner);
+
+  winning.winningBidCount = winning.winningBidCount.plus(BigInt.fromI32(1));
+  winning.totalWinningBid = winning.totalWinningBid.plus(event.params.amount);
+  winning.save();
+
+  let governance = getGovernanceEntity();
+
+  governance.totalBid = governance.totalBid.plus(event.params.amount);
+  governance.save();
 }

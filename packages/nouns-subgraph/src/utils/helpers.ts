@@ -1,3 +1,5 @@
+/* eslint-disable prefer-const */
+/* eslint-disable @typescript-eslint/no-inferrable-types */
 import { BigInt } from '@graphprotocol/graph-ts';
 import {
   Account,
@@ -22,6 +24,8 @@ export function getOrCreateAccount(
     tokenHolder.tokenBalance = BIGINT_ZERO;
     tokenHolder.totalTokensHeldRaw = BIGINT_ZERO;
     tokenHolder.totalTokensHeld = BIGINT_ZERO;
+    tokenHolder.winningBidCount = BIGINT_ZERO;
+    tokenHolder.totalWinningBid = BIGINT_ZERO;
     tokenHolder.nouns = [];
 
     if (save) {
@@ -116,6 +120,7 @@ export function getGovernanceEntity(): Governance {
     governance.delegatedVotesRaw = BIGINT_ZERO;
     governance.delegatedVotes = BIGINT_ZERO;
     governance.proposalsQueued = BIGINT_ZERO;
+    governance.totalBid = BIGINT_ZERO;
   }
 
   return governance as Governance;
