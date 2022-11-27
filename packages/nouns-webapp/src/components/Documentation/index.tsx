@@ -5,14 +5,13 @@ import Accordion from 'react-bootstrap/Accordion';
 import Link from '../Link';
 import { Trans } from '@lingui/macro';
 import Leaderboard from '../../components/Leaderboard';
+import Winners from '../../components/Winners';
+import Image from 'react-bootstrap/Image';
+import bannerImage from '../../assets/play-nouns-bowling.jpg';
 
 const Documentation = () => {
   const nounsLink = (
-    <Link
-      text={<Trans>Nouns</Trans>}
-      url="https://www.nouns.wtf"
-      leavesPage={true}
-    />
+    <Link text={<Trans>Nouns</Trans>} url="https://www.nouns.wtf" leavesPage={true} />
   );
   const playgroundLink = (
     <Link text={<Trans>Playground</Trans>} url="/playground" leavesPage={false} />
@@ -42,8 +41,8 @@ const Documentation = () => {
             <Trans>
               Bowler Nouns are an experimental attempt to improve the development of web3 games.
               While projects such as {nounsLink} have attempted to bootstrap identity, community,
-              governance, and a treasury for the community, Bowler Nouns seeks to
-              bootstrap a game studio, a bowling community, and a treasury that can be used by the community.
+              governance, and a treasury for the community, Bowler Nouns seeks to bootstrap a game
+              studio, a bowling community, and a treasury that can be used by the community.
             </Trans>
           </p>
           <p className={classes.aboutText} style={{ paddingBottom: '1rem' }}>
@@ -54,6 +53,7 @@ const Documentation = () => {
         </div>
         <div style={{ marginBottom: '3rem' }}>
           <Leaderboard tops={10} />
+          <Winners tops={10} />
         </div>
         <Accordion flush>
           <Accordion.Item eventKey="0" className={classes.accordionItem}>
@@ -69,10 +69,14 @@ const Documentation = () => {
                   <Trans>One Bowler Noun is trustlessly auctioned every 12 hours, forever</Trans>
                 </li>
                 <li>
-                  <Trans>50% of Bowler Noun auction proceeds are trustlessly sent to the treasury</Trans>
+                  <Trans>
+                    50% of Bowler Noun auction proceeds are trustlessly sent to the treasury
+                  </Trans>
                 </li>
                 <li>
-                  <Trans>50% of Bowler Noun auction proceeds are sent to the game studio multi-sig</Trans>
+                  <Trans>
+                    50% of Bowler Noun auction proceeds are sent to the game studio multi-sig
+                  </Trans>
                 </li>
                 <li>
                   <Trans>Settlement of one auction kicks off the next</Trans>
@@ -87,19 +91,23 @@ const Documentation = () => {
                   <Trans>One Bowler Noun is equal to one vote</Trans>
                 </li>
                 <li>
-                  <Trans>The treasury is controlled exclusively by Bowler Nouns via governance</Trans>
+                  <Trans>
+                    The treasury is controlled exclusively by Bowler Nouns via governance
+                  </Trans>
                 </li>
                 <li>
                   <Trans>Artwork is generative and stored directly on-chain (not IPFS)</Trans>
                 </li>
                 <li>
                   <Trans>
-                    Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)
+                    Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15
+                    years)
                   </Trans>
                 </li>
                 <li>
                   <Trans>
-                    One in 14 Bowler Nouns is reserved for prize contests (7% of supply for first 15 years)
+                    One in 14 Bowler Nouns is reserved for prize contests (7% of supply for first 15
+                    years)
                   </Trans>
                 </li>
               </ul>
@@ -130,8 +138,8 @@ const Documentation = () => {
               <p>
                 <Trans>
                   While settlement is most heavily incentivized for the winning bidder, it can be
-                  triggered by anyone, allowing the system to trustlessly auction Bowler Nouns as long as
-                  Ethereum is operational and there are interested bidders.
+                  triggered by anyone, allowing the system to trustlessly auction Bowler Nouns as
+                  long as Ethereum is operational and there are interested bidders.
                 </Trans>
               </p>
             </Accordion.Body>
@@ -142,12 +150,12 @@ const Documentation = () => {
             </Accordion.Header>
             <Accordion.Body>
               <Trans>
-                Bowler DAO utilizes a fork of {compoundGovLink} and is the main governing body of the
-                Bowler Nouns ecosystem. The Bowler DAO treasury receives 50% of ETH proceeds from daily
-                Bowler Noun auctions. Each Bowler Noun is an irrevocable member of Bowler DAO and entitled
-                to one vote in all governance matters. Votes are non-transferable (if you sell your
-                Bowler Noun the vote goes with it) but delegatable, which means you can assign your vote to
-                someone else as long as you own your Bowler Noun.
+                Bowler DAO utilizes a fork of {compoundGovLink} and is the main governing body of
+                the Bowler Nouns ecosystem. The Bowler DAO treasury receives 50% of ETH proceeds
+                from daily Bowler Noun auctions. Each Bowler Noun is an irrevocable member of Bowler
+                DAO and entitled to one vote in all governance matters. Votes are non-transferable
+                (if you sell your Bowler Noun the vote goes with it) but delegatable, which means
+                you can assign your vote to someone else as long as you own your Bowler Noun.
               </Trans>
             </Accordion.Body>
           </Accordion.Item>
@@ -158,17 +166,20 @@ const Documentation = () => {
             <Accordion.Body>
               <p>
                 <Trans>
-                  The Bowler Nouns Foundation considers the veto an emergency power that should not be
-                  exercised in the normal course of business. The Bowler Nouns Foundation will veto
-                  proposals that introduce non-trivial legal or existential risks to the Bowler DAO 
-                  or the Bowler Nouns Foundation, including (but not necessarily limited to) proposals
-                  that:
+                  The Bowler Nouns Foundation considers the veto an emergency power that should not
+                  be exercised in the normal course of business. The Bowler Nouns Foundation will
+                  veto proposals that introduce non-trivial legal or existential risks to the Bowler
+                  DAO or the Bowler Nouns Foundation, including (but not necessarily limited to)
+                  proposals that:
                 </Trans>
               </p>
               <ul>
                 <li>unequally withdraw the treasury for personal gain</li>
                 <li>bribe voters to facilitate withdraws of the treasury for personal gain</li>
-                <li>alter auction cadence for the purpose of maintaining or acquiring a voting majority</li>
+                <li>
+                  alter auction cadence for the purpose of maintaining or acquiring a voting
+                  majority
+                </li>
                 <li>make upgrades to critical smart contracts without undergoing an audit</li>
                 <li>propose game features which the game dev team is incapable of fulfilling</li>
               </ul>
@@ -189,8 +200,8 @@ const Documentation = () => {
               <p>
                 <Trans>
                   Bowler Nouns are generated randomly based Ethereum block hashes. There are no 'if'
-                  statements or other rules governing Bowler Noun trait scarcity, which makes all Bowler Nouns
-                  equally rare. As of this writing, Bowler Nouns are made up of:
+                  statements or other rules governing Bowler Noun trait scarcity, which makes all
+                  Bowler Nouns equally rare. As of this writing, Bowler Nouns are made up of:
                 </Trans>
               </p>
               <ul>
@@ -223,8 +234,8 @@ const Documentation = () => {
               <p>
                 <Trans>
                   Bowler Nouns are stored directly on Ethereum and do not utilize pointers to other
-                  networks such as IPFS. This is possible because Bowler Noun parts are compressed and
-                  stored on-chain using a custom run-length encoding (RLE), which is a form of
+                  networks such as IPFS. This is possible because Bowler Noun parts are compressed
+                  and stored on-chain using a custom run-length encoding (RLE), which is a form of
                   lossless compression.
                 </Trans>
               </p>
@@ -247,10 +258,10 @@ const Documentation = () => {
             <Accordion.Body>
               <p>
                 <Trans>
-                  The Noun Seeder contract is used to determine Bowler Noun traits during the minting
-                  process. The seeder contract can be replaced to allow for future trait generation
-                  algorithm upgrades. Additionally, it can be locked by the Bowler DAO to prevent any
-                  future updates.
+                  The Noun Seeder contract is used to determine Bowler Noun traits during the
+                  minting process. The seeder contract can be replaced to allow for future trait
+                  generation algorithm upgrades. Additionally, it can be locked by the Bowler DAO to
+                  prevent any future updates.
                 </Trans>
               </p>
             </Accordion.Body>
@@ -262,19 +273,27 @@ const Documentation = () => {
             <Accordion.Body>
               <p>
                 <Trans>
-                  'Founders' are the group of five builders that initiated Bowler Nouns. Here are the
-                  Founders:
+                  'Founders' are the group of five builders that initiated Bowler Nouns. Here are
+                  the Founders:
                 </Trans>
               </p>
               <ul>
                 <li>
-                  <Link text="@bowlingseed" url="https://twitter.com/bowlingseed" leavesPage={true} />
+                  <Link
+                    text="@bowlingseed"
+                    url="https://twitter.com/bowlingseed"
+                    leavesPage={true}
+                  />
                 </li>
                 <li>
                   <Link text="@gio4nft" url="https://twitter.com/gio4nft" leavesPage={true} />
                 </li>
                 <li>
-                  <Link text="@TheGrandEnnui" url="https://twitter.com/thegrandennui" leavesPage={true} />
+                  <Link
+                    text="@TheGrandEnnui"
+                    url="https://twitter.com/thegrandennui"
+                    leavesPage={true}
+                  />
                 </li>
                 <li>
                   <Link text="@YungTCarti" url="https://twitter.com/YungTCarti" leavesPage={true} />
@@ -285,28 +304,36 @@ const Documentation = () => {
               </ul>
               <p>
                 <Trans>
-                Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Founders have chosen to compensate themselves with Bowler Nouns.
-                Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on) will be
-                automatically sent to the Founder's multisig to be vested and shared among the founding members of the project.
+                  Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Founders
+                  have chosen to compensate themselves with Bowler Nouns. Every 10th Bowler Noun for
+                  the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on)
+                  will be automatically sent to the Founder's multisig to be vested and shared among
+                  the founding members of the project.
                 </Trans>
-            </p>
-            <p>
-                <Trans>
-                To encourage proliferation of Bowler Nouns, Founders have chosen to reserve one Bowler Noun per week for prizes.
-                Every 14th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #15, #29, #43 and so on) will be
-                automatically sent to the Prizekeeper's multisig to be granted as prizes to outstanding community members.
-                </Trans>
-            </p>
+              </p>
               <p>
                 <Trans>
-                  Founder and Prize distributions don't interfere with the cadence of 12 hour auctions. Bowler Nouns
-                  are sent directly to the Founder's and Prizekeeper's multisigs, and auctions continue on schedule
-                  with the next available Bowler Noun ID.
+                  To encourage proliferation of Bowler Nouns, Founders have chosen to reserve one
+                  Bowler Noun per week for prizes. Every 14th Bowler Noun for the first 15 years of
+                  the project (Bowler Noun ids #1, #15, #29, #43 and so on) will be automatically
+                  sent to the Prizekeeper's multisig to be granted as prizes to outstanding
+                  community members.
+                </Trans>
+              </p>
+              <p>
+                <Trans>
+                  Founder and Prize distributions don't interfere with the cadence of 12 hour
+                  auctions. Bowler Nouns are sent directly to the Founder's and Prizekeeper's
+                  multisigs, and auctions continue on schedule with the next available Bowler Noun
+                  ID.
                 </Trans>
               </p>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
+        <div style={{ padding: '2rem', paddingBottom: '8rem', textAlign: 'center' }}>
+          <Image src={bannerImage} alt={'Banner Image'} fluid />
+        </div>
       </Col>
     </Section>
   );

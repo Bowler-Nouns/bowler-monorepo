@@ -353,3 +353,16 @@ export const leaderboard = (tops: number) => gql`
     }
   }
 `;
+
+export const winners = (tops: number) => gql`
+  {
+    accounts(first: ${tops}, orderDirection: desc, orderBy: totalWinningBid, where: {winningBidCount_gt: 0}) {
+      id
+      winningBidCount
+      totalWinningBid
+    }
+    governances {
+      totalBid
+    }
+  }
+`;
