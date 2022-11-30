@@ -8,8 +8,10 @@ import Leaderboard from '../../components/Leaderboard';
 import Winners from '../../components/Winners';
 import Image from 'react-bootstrap/Image';
 import bannerImage from '../../assets/play-nouns-bowling.jpg';
+import { useHistory } from 'react-router';
 
 const Documentation = () => {
+  const history = useHistory();
   const nounsLink = (
     <Link text={<Trans>Nouns</Trans>} url="https://www.nouns.wtf" leavesPage={true} />
   );
@@ -331,8 +333,13 @@ const Documentation = () => {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        <div style={{ padding: '2rem', paddingBottom: '8rem', textAlign: 'center' }}>
-          <Image src={bannerImage} alt={'Banner Image'} fluid />
+        <div style={{ textAlign: 'center', cursor: 'pointer' }}>
+          <Image
+            src={bannerImage}
+            alt={'Banner Image'}
+            fluid
+            onClick={() => history.push(`/play`)}
+          />
         </div>
       </Col>
     </Section>

@@ -95,13 +95,7 @@ const NavBar = () => {
             onClick={() => setIsNavExpanded(!isNavExpanded)}
           />
           <Navbar.Collapse className="justify-content-end">
-            <Nav.Link
-              href={'https://nounsbowling.wtf/'}
-              className={classes.nounsNavLink}
-              target="_blank"
-              rel="noreferrer"
-              onClick={closeNav}
-            >
+            <Nav.Link as={Link} to="/play" className={classes.nounsNavLink} onClick={closeNav}>
               <NavBarButton
                 buttonText={<Trans>Play Bowling Game</Trans>}
                 buttonIcon={<FontAwesomeIcon icon={faPlay} />}
