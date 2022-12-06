@@ -41,7 +41,7 @@ const Documentation = () => {
           </h1>
           <p className={classes.aboutText}>
             <Trans>
-              Bowler Nouns is an experiment in funding a game development studio with a DAO.
+              Bowler Nouns is an experiment in funding an independent game development studio with a DAO.
               Projects such as {nounsLink} have attempted to bootstrap identity, community, governance, and a treasury for the community.
               Bowler Nouns seeks to bootstrap a game studio, a bowling community, and a treasury to fund proposals related to bowling culture.
             </Trans>
@@ -302,10 +302,10 @@ const Documentation = () => {
               </p>
               <p>
                 <Trans>
-                  To encourage proliferation of Bowler Nouns, Founders have chosen to reserve one
-                  Bowler Noun per week for prizes. Every 10th Bowler Noun for the first 15 years of
-                  the project (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically
-                  sent to the Prizekeeper's multisig to be given out as prizes to outstanding people.
+                  To encourage proliferation of Bowler Nouns, Founders have chosen to reserve some
+                  Bowler Nouns for prizes. Every 10th Bowler Noun for the first 15 years of the project
+                  (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically
+                  sent to the Prizekeeper's multisig to be given out as prizes to outstanding performers.
                 </Trans>
               </p>
               <p>
