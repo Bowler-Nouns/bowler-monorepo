@@ -10,7 +10,12 @@ import { Trans } from '@lingui/macro';
 const Banner = () => {
   return (
     <Section fullWidth={false} className={classes.bannerSection}>
-      <Col lg={6}>
+      <Col lg={4}>
+        <div>
+          <Noun imgPath={bowler_noun_8} alt="noun" />
+        </div>
+      </Col>
+      <Col lg={4}>
         <div className={classes.wrapper}>
           <h1>
             <Trans>ONE BOWLER,</Trans>
@@ -21,9 +26,9 @@ const Banner = () => {
           </h1>
         </div>
       </Col>
-      <Col lg={6}>
-        <div style={{ padding: '2rem' }}>
-          <Noun imgPath={bowler_noun_7} alt="bowler noun" />
+      <Col lg={4}>
+        <div>
+          <Noun imgPath={bowler_noun_7} alt="noun" />
         </div>
       </Col>
     </Section>
