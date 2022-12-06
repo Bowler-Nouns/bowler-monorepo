@@ -41,10 +41,9 @@ const Documentation = () => {
           </h1>
           <p className={classes.aboutText}>
             <Trans>
-              Bowler Nouns are an experimental attempt to improve the development of web3 games.
-              While projects such as {nounsLink} have attempted to bootstrap identity, community,
-              governance, and a treasury for the community, Bowler Nouns seeks to bootstrap a game
-              studio, a bowling community, and a treasury that can be used by the community.
+              Bowler Nouns is an experiment in funding a game development studio with a DAO.
+              Projects such as {nounsLink} have attempted to bootstrap identity, community, governance, and a treasury for the community.
+              Bowler Nouns seeks to bootstrap a game studio, a bowling community, and a treasury to fund proposals related to bowling culture.
             </Trans>
           </p>
           <p className={classes.aboutText} style={{ paddingBottom: '1rem' }}>
@@ -77,7 +76,7 @@ const Documentation = () => {
                 </li>
                 <li>
                   <Trans>
-                    50% of Bowler Noun auction proceeds are sent to the game studio multi-sig
+                    50% of Bowler Noun auction proceeds are sent to the game studio multisig
                   </Trans>
                 </li>
                 <li>
@@ -101,15 +100,13 @@ const Documentation = () => {
                   <Trans>Artwork is generative and stored directly on-chain (not IPFS)</Trans>
                 </li>
                 <li>
-                  <Trans>
-                    Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15
-                    years)
-                  </Trans>
+                <Trans>
+                    Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)
+                 </Trans>
                 </li>
                 <li>
                   <Trans>
-                    One in 14 Bowler Nouns is reserved for prize contests (7% of supply for first 15
-                    years)
+                    Prizes are reserved in the form of Bowler Nouns (10% of supply for first 15 years)
                   </Trans>
                 </li>
               </ul>
@@ -185,13 +182,6 @@ const Documentation = () => {
                 <li>make upgrades to critical smart contracts without undergoing an audit</li>
                 <li>propose game features which the game dev team is incapable of fulfilling</li>
               </ul>
-              <p>
-                <Trans>
-                  There are unfortunately no algorithmic solutions for making these determinations
-                  in advance (if there were, the veto would not be required), and proposals must be
-                  considered on a case by case basis.
-                </Trans>
-              </p>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4" className={classes.accordionItem}>
@@ -201,26 +191,24 @@ const Documentation = () => {
             <Accordion.Body>
               <p>
                 <Trans>
-                  Bowler Nouns are generated randomly based Ethereum block hashes. There are no 'if'
-                  statements or other rules governing Bowler Noun trait scarcity, which makes all
-                  Bowler Nouns equally rare. As of this writing, Bowler Nouns are made up of:
+                  Bowler Nouns are made up of:
                 </Trans>
               </p>
               <ul>
                 <li>
-                  <Trans>backgrounds (2) </Trans>
+                  <Trans>Backgrounds (2) </Trans>
                 </li>
                 <li>
-                  <Trans>bodies (32)</Trans>
+                  <Trans>Bodies (32)</Trans>
                 </li>
                 <li>
-                  <Trans>balls (8) </Trans>
+                  <Trans>Balls (8) </Trans>
                 </li>
                 <li>
-                  <Trans>heads (42) </Trans>
+                  <Trans>Heads (42) </Trans>
                 </li>
                 <li>
-                  <Trans>glasses (12)</Trans>
+                  <Trans>Glasses (12)</Trans>
                 </li>
               </ul>
               <Trans>
@@ -241,7 +229,6 @@ const Documentation = () => {
                   lossless compression.
                 </Trans>
               </p>
-
               <p>
                 <Trans>
                   The compressed parts are efficiently converted into a single base64 encoded SVG
@@ -316,18 +303,16 @@ const Documentation = () => {
               <p>
                 <Trans>
                   To encourage proliferation of Bowler Nouns, Founders have chosen to reserve one
-                  Bowler Noun per week for prizes. Every 14th Bowler Noun for the first 15 years of
-                  the project (Bowler Noun ids #1, #15, #29, #43 and so on) will be automatically
-                  sent to the Prizekeeper's multisig to be granted as prizes to outstanding
-                  community members.
+                  Bowler Noun per week for prizes. Every 10th Bowler Noun for the first 15 years of
+                  the project (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically
+                  sent to the Prizekeeper's multisig to be given out as prizes to outstanding people.
                 </Trans>
               </p>
               <p>
                 <Trans>
                   Founder and Prize distributions don't interfere with the cadence of 12 hour
                   auctions. Bowler Nouns are sent directly to the Founder's and Prizekeeper's
-                  multisigs, and auctions continue on schedule with the next available Bowler Noun
-                  ID.
+                  multisigs, and auctions continue on schedule with the next Bowler Noun ID.
                 </Trans>
               </p>
             </Accordion.Body>
