@@ -8,11 +8,15 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <link rel="stylesheet" href="TemplateData/style.css" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body style="background-color:black">
     <div id="root"></div>
     <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas" width="960" height="720"></canvas>
+        <canvas id="unity-canvas" width="800" height="600"></canvas>
         <div id="unity-loading-bar">
             <div id="unity-logo"></div>
             <div id="unity-progress-bar-empty">
@@ -20,7 +24,10 @@
             </div>
         </div>
     </div>
+    <script src="network.js"></script>
     <script src="web3/index.js"></script>
+    <script src="web3/lib/web3.min.js"></script>
+    <script src="web3/lib/web3modal.js"></script>
     <script>var buildUrl = "Build";
         var loaderUrl = buildUrl + "/nouns-bowling-game.loader.js";
         var config = {
@@ -41,8 +48,8 @@
         if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
             container.className = "unity-mobile";
         } else {
-            canvas.style.width = "960px";
-            canvas.style.height = "720px";
+            canvas.style.width = "800px";
+            canvas.style.height = "600px";
         }
         config.devicePixelRatio = 1;
         loadingBar.style.display = "block";

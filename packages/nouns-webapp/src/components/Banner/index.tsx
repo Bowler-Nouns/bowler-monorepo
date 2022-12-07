@@ -18,9 +18,9 @@ const Banner = () => {
       <Col lg={4}>
         <div className={classes.wrapper}>
           <h1>
-            <Trans>TWO BOWLERS,</Trans>
+            <Trans>ONE BOWLER,</Trans>
             <br />
-            <Trans>EVERY DAY,</Trans>
+            <Trans>EVERY 12 HRS,</Trans>
             <br />
             <Trans>FOREVER.</Trans>
           </h1>
