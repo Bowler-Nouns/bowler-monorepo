@@ -77,8 +77,13 @@ task('deploy-local', 'Deploy contracts to hardhat')
       WETH: {},
       NFTDescriptorV2: {},
       SVGRenderer: {},
+      NounsAttribute: {},
       NounsDescriptorV2: {
-        args: [expectedNounsArtAddress, () => contracts.SVGRenderer.instance?.address],
+        args: [
+          expectedNounsArtAddress,
+          () => contracts.SVGRenderer.instance?.address,
+          () => contracts.NounsAttribute.instance?.address,
+        ],
         libraries: () => ({
           NFTDescriptorV2: contracts.NFTDescriptorV2.instance?.address as string,
         }),

@@ -25,6 +25,7 @@ import { NFTDescriptorV2 } from './libs/NFTDescriptorV2.sol';
 import { ISVGRenderer } from './interfaces/ISVGRenderer.sol';
 import { INounsArt } from './interfaces/INounsArt.sol';
 import { IInflator } from './interfaces/IInflator.sol';
+import { INounsAttribute } from './interfaces/INounsAttribute.sol';
 
 contract NounsDescriptorV2 is INounsDescriptorV2, Ownable {
     using Strings for uint256;
@@ -48,6 +49,9 @@ contract NounsDescriptorV2 is INounsDescriptorV2, Ownable {
     /// @notice Base URI, used when isDataURIEnabled is false
     string public override baseURI;
 
+    /// @notice attributes
+    INounsAttribute public attribute;
+
     /**
      * @notice Require that the parts have not been locked.
      */
@@ -56,9 +60,20 @@ contract NounsDescriptorV2 is INounsDescriptorV2, Ownable {
         _;
     }
 
-    constructor(INounsArt _art, ISVGRenderer _renderer) {
+    constructor(
+        INounsArt _art,
+        ISVGRenderer _renderer,
+        INounsAttribute _attribute
+    ) {
         art = _art;
         renderer = _renderer;
+        attribute = _attribute;
+    }
+
+    function setAttribute(INounsAttribute _attribute) external onlyOwner {
+        require(address(_attribute) != address(0), 'ZERO ADDRESS');
+
+        attribute = _attribute;
     }
 
     /**
@@ -426,13 +441,14 @@ contract NounsDescriptorV2 is INounsDescriptorV2, Ownable {
         string memory description,
         INounsSeeder.Seed memory seed
     ) public view override returns (string memory) {
+        string memory attributes = generateAttributesList(seed);
         NFTDescriptorV2.TokenURIParams memory params = NFTDescriptorV2.TokenURIParams({
             name: name,
             description: description,
             parts: getPartsForSeed(seed),
             background: art.backgrounds(seed.background)
         });
-        return NFTDescriptorV2.constructTokenURI(renderer, params);
+        return NFTDescriptorV2.constructTokenURI(renderer, params, attributes);
     }
 
     /**
@@ -468,5 +484,28 @@ contract NounsDescriptorV2 is INounsDescriptorV2, Ownable {
      */
     function _getPalette(bytes memory part) private view returns (bytes memory) {
         return art.palettes(uint8(part[0]));
+    }
+
+    function generateAttributesList(INounsSeeder.Seed memory seed) public view returns (string memory) {
+        return
+            string(
+                abi.encodePacked(
+                    '{"trait_type":"Background","value":"',
+                    attribute.backgrounds(seed.background),
+                    '"},',
+                    '{"trait_type":"Body","value":"',
+                    attribute.bodies(seed.body),
+                    '"},',
+                    '{"trait_type":"Accessory","value":"',
+                    attribute.accessories(seed.accessory),
+                    '"},',
+                    '{"trait_type":"Head","value":"',
+                    attribute.heads(seed.head),
+                    '"},',
+                    '{"trait_type":"Glasses","value":"',
+                    attribute.glasses(seed.glasses),
+                    '"}'
+                )
+            );
     }
 }

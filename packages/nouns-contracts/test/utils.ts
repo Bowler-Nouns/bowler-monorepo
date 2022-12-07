@@ -22,9 +22,11 @@ import {
   SVGRenderer__factory as SVGRendererFactory,
   NounsDAOExecutor__factory as NounsDaoExecutorFactory,
   NounsDAOLogicV1__factory as NounsDaoLogicV1Factory,
+  NounsAttribute__factory as NounsAttributeFactory,
   NounsDAOExecutor,
   Inflator__factory,
   NounsDAOStorageV2,
+  NounsAttribute,
 } from '../typechain';
 import ImageData from '../files/image-data-v1.json';
 import ImageDataV2 from '../files/image-data-v2.json';
@@ -68,9 +70,7 @@ export const deployNounsDescriptor = async (
   return nounsDescriptorFactory.deploy();
 };
 
-export const deployNounsDescriptorV2 = async (
-  deployer?: SignerWithAddress,
-): Promise<NounsDescriptorV2> => {
+export const deployNounsDescriptorV2 = async (deployer?: SignerWithAddress) => {
   const signer = deployer || (await getSigners()).deployer;
   const nftDescriptorLibraryFactory = await ethers.getContractFactory('NFTDescriptorV2', signer);
   const nftDescriptorLibrary = await nftDescriptorLibraryFactory.deploy();
@@ -82,9 +82,11 @@ export const deployNounsDescriptorV2 = async (
   );
 
   const renderer = await new SVGRendererFactory(signer).deploy();
+  const attribute = await new NounsAttributeFactory(signer).deploy();
   const descriptor = await nounsDescriptorFactory.deploy(
     ethers.constants.AddressZero,
     renderer.address,
+    attribute.address,
   );
 
   const inflator = await new Inflator__factory(signer).deploy();
@@ -92,7 +94,7 @@ export const deployNounsDescriptorV2 = async (
   const art = await new NounsArtFactory(signer).deploy(descriptor.address, inflator.address);
   await descriptor.setArt(art.address);
 
-  return descriptor;
+  return { descriptor, attribute };
 };
 
 export const deployNounsSeeder = async (deployer?: SignerWithAddress): Promise<NounsSeeder> => {
@@ -115,7 +117,7 @@ export const deployNounsToken = async (
   return factory.deploy(
     noundersDAO || signer.address,
     minter || signer.address,
-    descriptor || (await deployNounsDescriptorV2(signer)).address,
+    descriptor || (await deployNounsDescriptorV2(signer)).descriptor.address,
     seeder || (await deployNounsSeeder(signer)).address,
     proxyRegistryAddress || address(0),
   );
@@ -175,6 +177,23 @@ export const populateDescriptorV2 = async (nounsDescriptor: NounsDescriptorV2): 
   await nounsDescriptor.addAccessories(accessoriesCompressed, accessoriesLength, accessoriesCount);
   await nounsDescriptor.addHeads(headsCompressed, headsLength, headsCount);
   await nounsDescriptor.addGlasses(glassesCompressed, glassesLength, glassesCount);
+};
+
+export const populateAttribute = async (alpsAttribute: NounsAttribute): Promise<void> => {
+  const { images } = ImageDataV2;
+  const { bodies, accessories, heads, glasses } = images;
+
+  const bodyAttributes = bodies.map(({ filename }) => parseTraitName(filename));
+  const accessoryAttributes = accessories.map(({ filename }) => parseTraitName(filename));
+  const headAttributes = heads.map(({ filename }) => parseTraitName(filename));
+  const glassesAttributes = glasses.map(({ filename }) => parseTraitName(filename));
+
+  await alpsAttribute.addManyBackgrounds(['Cool', 'Warm']);
+
+  await alpsAttribute.addManyBodies(bodyAttributes);
+  await alpsAttribute.addManyAccessories(accessoryAttributes);
+  await alpsAttribute.addManyHeads(headAttributes);
+  await alpsAttribute.addManyGlasses(glassesAttributes);
 };
 
 export const deployGovAndToken = async (
@@ -526,3 +545,14 @@ function dataToDescriptorInput(data: string[]): {
     itemCount,
   };
 }
+
+export const parseTraitName = (fileName: string): string => {
+  const capitalizeFirstLetter = (s: string): string => s.charAt(0).toUpperCase() + s.slice(1);
+  fileName = fileName
+    .substring(fileName.indexOf('-') + 1)
+    .split('-')
+    .map(name => capitalizeFirstLetter(name))
+    .join(' ');
+
+  return fileName;
+};
