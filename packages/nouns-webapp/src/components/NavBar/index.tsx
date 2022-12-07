@@ -151,7 +151,7 @@ const NavBar = () => {
                 />
               </Nav.Link>
             </div>
-            <div className={clsx(responsiveUiUtilsClasses.desktopOnly)}>
+            {/* <div className={clsx(responsiveUiUtilsClasses.desktopOnly)}>
               <NavDropdown buttonIcon={<Noggles />} buttonStyle={nonWalletButtonStyle}>
                 <Dropdown.Item
                   className={clsx(
@@ -180,7 +180,14 @@ const NavBar = () => {
                   Playground
                 </Dropdown.Item>
               </NavDropdown>
-            </div>
+            </div> */}
+            <Nav.Link as={Link} to="/playground" className={classes.alpsNavLink} onClick={closeNav}>
+              <NavBarButton
+                buttonText={<Trans>Playground</Trans>}
+                buttonIcon={<FontAwesomeIcon icon={faPlay} />}
+                buttonStyle={nonWalletButtonStyle}
+              />
+            </Nav.Link>
             {/* <NavLocaleSwitcher buttonStyle={nonWalletButtonStyle} /> */}
             <NavWallet address={activeAccount || '0'} buttonStyle={nonWalletButtonStyle} />{' '}
           </Navbar.Collapse>
