@@ -121,12 +121,6 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
         // Refund the last bidder, if applicable
         if (lastBidder != address(0)) {
             _safeTransferETHWithFallback(lastBidder, _auction.amount);
-
-            uint256 studioAmount = (_auction.amount * 50) / 100;
-            uint256 bowlerNounsAmount = (_auction.amount * 50) / 100;
-
-            _safeTransferETHWithFallback(studio, studioAmount);
-            _safeTransferETHWithFallback(owner(), bowlerNounsAmount);
         }
 
         auction.amount = msg.value;
@@ -244,7 +238,10 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
         }
 
         if (_auction.amount > 0) {
-            _safeTransferETHWithFallback(owner(), _auction.amount);
+            uint256 amount = (_auction.amount / 2);
+
+            _safeTransferETHWithFallback(studio, amount);
+            _safeTransferETHWithFallback(owner(), amount);
         }
 
         emit AuctionSettled(_auction.nounId, _auction.bidder, _auction.amount);
