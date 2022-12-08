@@ -44,6 +44,17 @@ task('deploy-descriptor-v2', 'Deploy NounsDescriptorV2 & populate it with art')
       libraries: {},
     };
 
+    const nounsAttribute = await (
+      await ethers.getContractFactory('NounsAttribute', deployer)
+    ).deploy();
+    contracts.NounsAttribute = {
+      name: 'NounsAttribute',
+      address: nounsAttribute.address,
+      instance: nounsAttribute,
+      constructorArguments: [],
+      libraries: {},
+    };
+
     const nounsDescriptorFactory = await ethers.getContractFactory('NounsDescriptorV2', {
       libraries: {
         NFTDescriptorV2: library.address,
@@ -52,6 +63,7 @@ task('deploy-descriptor-v2', 'Deploy NounsDescriptorV2 & populate it with art')
     const nounsDescriptor = await nounsDescriptorFactory.deploy(
       expectedNounsArtAddress,
       renderer.address,
+      nounsAttribute.address,
     );
     contracts.NounsDescriptorV2 = {
       name: 'NounsDescriptorV2',

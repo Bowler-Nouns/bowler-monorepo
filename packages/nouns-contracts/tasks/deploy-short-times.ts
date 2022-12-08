@@ -129,15 +129,24 @@ task('deploy-short-times', 'Deploy all Nouns contracts with short gov times for 
     const contracts: Record<ContractNamesDAOV2, ContractDeployment> = {
       NFTDescriptorV2: {},
       SVGRenderer: {},
+      NounsAttribute: {},
       NounsDescriptorV2: {
-        args: [expectedNounsArtAddress, () => deployment.SVGRenderer.address],
+        args: [
+          expectedNounsArtAddress,
+          () => deployment.SVGRenderer.address,
+          () => deployment.NounsAttribute.address,
+        ],
         libraries: () => ({
           NFTDescriptorV2: deployment.NFTDescriptorV2.address,
         }),
       },
       Inflator: {},
       NounsArt: {
-        args: [() => deployment.NounsDescriptorV2.address, () => deployment.Inflator.address],
+        args: [
+          () => deployment.NounsDescriptorV2.address,
+          () => deployment.Inflator.address,
+          () => deployment.SVGRenderer.address,
+        ],
       },
       NounsSeeder: {},
       NounsToken: {

@@ -122,8 +122,13 @@ task('deploy-short-times-daov1', 'Deploy all Nouns contracts with short gov time
     const contracts: Record<ContractName, ContractDeployment> = {
       NFTDescriptorV2: {},
       SVGRenderer: {},
+      NounsAttribute: {},
       NounsDescriptorV2: {
-        args: [expectedNounsArtAddress, () => deployment.SVGRenderer.address],
+        args: [
+          expectedNounsArtAddress,
+          () => deployment.SVGRenderer.address,
+          () => deployment.NounsAttribute.address,
+        ],
         libraries: () => ({
           NFTDescriptorV2: deployment.NFTDescriptorV2.address,
         }),
