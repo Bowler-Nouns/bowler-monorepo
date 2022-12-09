@@ -1,6 +1,7 @@
 import { Unity, useUnityContext } from 'react-unity-webgl';
 import loadingNoun from '../../assets/loading-skull-noun.gif';
 import Image from 'react-bootstrap/Image';
+import classes from './Play.module.css';
 
 const PlayPage = () => {
   const { unityProvider, isLoaded } = useUnityContext({
@@ -13,11 +14,19 @@ const PlayPage = () => {
   return (
     <>
       {isLoaded === false && (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
           <Image src={loadingNoun} alt="Loading noun" />
         </div>
       )}
-      <Unity unityProvider={unityProvider} />
+      <div style={{ textAlign: 'center' }}>
+        <Unity unityProvider={unityProvider} className={classes.unityContainer} />
+      </div>
     </>
   );
 };
