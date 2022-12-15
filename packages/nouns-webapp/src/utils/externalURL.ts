@@ -14,6 +14,6 @@ export const externalURL = (externalURL: ExternalURL) => {
     case ExternalURL.discourse:
       return 'https://discourse.nouns.wtf/';
     case ExternalURL.nounsCenter:
-      return 'https://nouns.center/';
+      return 'https://nouns-bowling.notion.site/Nouns-Bowling-bringing-the-Nouns-together-for-a-lively-game-of-bowling-36fa0ca9593848f582d968180d7a0ffe';
   }
 };
