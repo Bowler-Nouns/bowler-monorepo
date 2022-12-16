@@ -1,18 +1,18 @@
 .unityContainer {
   width: 992px;
-  aspect-ratio: 3/2;
+  aspect-ratio: 4/3;
 }
 
 @media (max-width: 992px) {
   .unityContainer {
     width: 100%;
-    aspect-ratio: 3/2;
+    aspect-ratio: 4/3;
   }
 }
 
 @media (max-width: 568px) {
   .unityContainer {
     width: 100%;
-    aspect-ratio: 3/2;
+    aspect-ratio: 4/3;
   }
 }
