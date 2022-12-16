@@ -58,7 +58,7 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
     uint256 private _currentNounId;
 
     // IPFS content hash of contract-level metadata
-    string private _contractURIHash = 'QmdMfcxh2qSQZGC3EfyCTbdRd9r7S6QKq4xUE8ytnn48VQ';
+    string private _contractURIHash = 'Qmbbdka5c9Fz2Y9ZEwnHmqUuUPR8sHY6mWP7L4iYSNtAqf';
 
     // OpenSea's Proxy Registry
     IProxyRegistry public immutable proxyRegistry;
@@ -150,10 +150,10 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
      * @dev Call _mintTo with the to address(es).
      */
     function mint() public override onlyMinter returns (uint256) {
-        if (_currentNounId <= 14600 && _currentNounId % 10 == 0) {
+        if (_currentNounId <= 10950 && _currentNounId % 10 == 0) {
             _mintTo(noundersDAO, _currentNounId++);
         }
-        if (_currentNounId <= 14600 && _currentNounId % 14 == 0) {
+        if (_currentNounId <= 10950 && _currentNounId % 10 == 1) {
             _mintTo(prizePool, _currentNounId++);
         }
         return _mintTo(minter, _currentNounId++);

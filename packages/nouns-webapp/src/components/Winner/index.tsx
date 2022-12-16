@@ -42,7 +42,7 @@ const Winner: React.FC<WinnerProps> = props => {
       {!isMobile && (
         <Col>
           <a
-            href="https://nouns.center/nouners"
+            href="https://nouns-bowling.notion.site/Welcome-to-Bowler-Nouns-ef88df65a4f146cda871ea052377d60c"
             target="_blank"
             rel="noreferrer noopener"
             className={classes.verifyLink}
@@ -104,7 +104,7 @@ const Winner: React.FC<WinnerProps> = props => {
       {isWinnerYou && isMobile && (
         <Row>
           <a
-            href="https://nouns.center/nouners"
+            href="https://nouns-bowling.notion.site/Welcome-to-Bowler-Nouns-ef88df65a4f146cda871ea052377d60c"
             target="_blank"
             rel="noreferrer noopener"
             className={classes.verifyLink}
