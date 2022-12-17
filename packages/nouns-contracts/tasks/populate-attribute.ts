@@ -6,7 +6,7 @@ task('populate-attribute', 'Populates the attribute.')
   .addOptionalParam(
     'nounsAttribute',
     'The `NounsAttribute` contract address',
-    '0xE7e4A25Cdd5d7FA344341Bc46c08a3f4f1Bb6e9e',
+    '0x2f6f8AC2693b43A1123C7711341417AAd6888f61',
     types.string,
   )
   .setAction(async ({ nounsAttribute }, { ethers, network }) => {
