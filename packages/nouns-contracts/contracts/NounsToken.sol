@@ -31,7 +31,7 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
     address public noundersDAO;
 
     // Prize pool multisig address
-    address public prizePool = 0xc819157C79378C82bBcb0f0e917ABA389a397f53;
+    address public prizePool = 0xb3F163773F48535D62C47E7DC4B48016316b7769;
 
     // An address who has permissions to mint Nouns
     address public minter;

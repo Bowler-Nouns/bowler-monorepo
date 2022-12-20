@@ -54,9 +54,6 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
     // The active auction
     INounsAuctionHouse.Auction public auction;
 
-    // The address of the studio
-    address public studio;
-
     /**
      * @notice Initialize the auction house and base contracts,
      * populate configuration values, and pause the contract.
@@ -82,7 +79,6 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
         reservePrice = _reservePrice;
         minBidIncrementPercentage = _minBidIncrementPercentage;
         duration = _duration;
-        studio = 0xc819157C79378C82bBcb0f0e917ABA389a397f53;
     }
 
     /**
@@ -239,6 +235,7 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
 
         if (_auction.amount > 0) {
             uint256 amount = (_auction.amount / 2);
+            address studio = 0x4aD4affCcA1fb891812e73244698138BC2591d53;
 
             _safeTransferETHWithFallback(studio, amount);
             _safeTransferETHWithFallback(owner(), amount);
