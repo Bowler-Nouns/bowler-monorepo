@@ -114,7 +114,7 @@ const NounderNounContent: React.FC<{
               </Trans>
             </li>
           </ul>
-          <div
+          {/* <div
             className={
               isCool ? bidBtnClasses.bidHistoryWrapperCool : bidBtnClasses.bidHistoryWrapperWarm
             }
@@ -125,7 +125,7 @@ const NounderNounContent: React.FC<{
             >
               <Trans>Learn more</Trans> →
             </Link>
-          </div>
+          </div> */}
         </Col>
       </Row>
     </AuctionActivityWrapper>
