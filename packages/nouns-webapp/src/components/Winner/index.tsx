@@ -59,23 +59,23 @@ const Winner: React.FC<WinnerProps> = props => {
   );
 
   const nounderNounContent = (
-    <a
-      href={buildEtherscanAddressLink('nounders.eth')}
-      target={'_blank'}
-      rel="noreferrer"
-      className={classes.link}
-    >
-      <Tooltip
-        tip="View on Etherscan"
-        tooltipContent={(tip: string) => {
-          return <Trans>View on Etherscan</Trans>;
-        }}
-        id="holder-etherscan-tooltip"
-      >
-        nounders.eth
-      </Tooltip>
-    </a>
+    // <a
+    //   href={buildEtherscanAddressLink('bowlder.eth')}
+    //   target={'_blank'}
+    //   rel="noreferrer"
+    //   className={classes.link}
+    // >
+    // <Tooltip
+    //   tip="View on Etherscan"
+    //   tooltipContent={(tip: string) => {
+    //     return <Trans>View on Etherscan</Trans>;
+    //   }}
+    //   id="holder-etherscan-tooltip"
+    // >
+    <>Bowlders/ Prizekeepers</>
   );
+  // </Tooltip>
+  // </a>
 
   return (
     <>
