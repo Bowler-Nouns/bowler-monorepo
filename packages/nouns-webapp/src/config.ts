@@ -71,7 +71,7 @@ const app: Record<SupportedChains, AppConfig> = {
   [ChainId.Mainnet]: {
     jsonRpcUri: createNetworkHttpUrl('mainnet'),
     wsRpcUri: createNetworkWsUrl('mainnet'),
-    subgraphApiUri: 'https://api.thegraph.com/subgraphs/name/nounsdao/nouns-subgraph',
+    subgraphApiUri: 'https://api.thegraph.com/subgraphs/name/yanuar-ar/bowler-nouns',
     enableHistory: process.env.REACT_APP_ENABLE_HISTORY === 'true',
   },
   [ChainId.Hardhat]: {

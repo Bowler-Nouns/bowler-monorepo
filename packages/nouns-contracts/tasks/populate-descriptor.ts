@@ -6,13 +6,13 @@ task('populate-descriptor', 'Populates the descriptor with color palettes and No
   .addOptionalParam(
     'nftDescriptor',
     'The `NFTDescriptorV2` contract address',
-    '0x2c92Db8d04BA6E9d18662AC7f18aDc90F69FE0e1',
+    '0x826D29F5e1B6992B7e28983C33D6D68866947887',
     types.string,
   )
   .addOptionalParam(
     'nounsDescriptor',
     'The `NounsDescriptorV2` contract address',
-    '0x954ACb6cD84486b764fFFF05977fE9A73e41593c',
+    '0xf942F676b25e6122f463e5969f19325a2e7dd917',
     types.string,
   )
   .setAction(async ({ nftDescriptor, nounsDescriptor }, { ethers, network }) => {
