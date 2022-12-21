@@ -103,8 +103,7 @@ const NounderNounContent: React.FC<{
             >
               <p>
                 <Trans>
-                Every 10th Noun for the first 15 years of the project will be sent to the Bowlders multisig, , where it will be vested and distributed to
-                individual Bowlders.
+                Every 10th Noun for the first 15 years of the project will be sent to the Bowlders multisig.
                 </Trans>
               </p>
             <Trans>
