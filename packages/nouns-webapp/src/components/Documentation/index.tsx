@@ -41,15 +41,9 @@ const Documentation = () => {
           </h1>
           <p className={classes.aboutText}>
             <Trans>
-                <p>
                 Bowler Nouns is an experimental attempt to build a decentralized bowling game with a DAO.
-                </p>
-                <p>
                 While projects such as Nouns have attempted to bootstrap identity, community, governance, and a treasury…
-                </p>
-                <p>
                 Bowler Nouns seeks to bootstrap a bunch of bowling games, bolstered by a treasury system designed to fund gaming operations, forever.
-                </p>
             </Trans>
           </p>
           <p className={classes.aboutText} style={{ paddingBottom: '1rem' }}>
@@ -308,7 +302,7 @@ const Documentation = () => {
               <p>
                 <Trans>
                   To encourage proliferation of Bowler Nouns, Prizekeepers have chosen to reserve some
-                  Bowler Nouns for prizes. Every 10th Bowler Noun for the first 15 years of the project
+                  Bowler Nouns for a prize pool. Every 10th Bowler Noun for the first 15 years of the project
                   (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically
                   sent to the Prizekeeper's multisig to be given out as prizes to outstanding performers.
                 </Trans>

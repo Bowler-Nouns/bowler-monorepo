@@ -131,7 +131,7 @@ const NoundersPage = () => {
     <Section fullWidth={true} className={classes.noundersPage}>
       <Col lg={{ span: 6, offset: 3 }}>
         <h2 style={{ marginBottom: '2rem' }}>
-          <Trans>The Nounders</Trans>
+          <Trans>The Bowlders</Trans>
         </h2>
         <h3 style={{ marginBottom: '2rem' }}>
           <Trans>3.5 artists, 6.5 technologists</Trans>
@@ -141,22 +141,21 @@ const NoundersPage = () => {
           <BioCards min={5} max={10} />
         </Row>
         <h3>
-          <Trans>Nounders' Reward</Trans>
+          <Trans>Bowlders' Reward</Trans>
         </h3>
         <p style={{ textAlign: 'justify' }}>
           <Trans>
-            All Noun auction proceeds are sent to the Nouns DAO. For this reason, we, the project's
-            founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th noun
-            for the first 5 years of the project will be sent to our multisig (5/10), where it will
-            be vested and distributed to individual Nounders.
+            50% of Bowler Noun auction proceeds are sent to the Bowler Nouns DAO. For this reason, we, the project's
+            founders (‘Bowlders’) have chosen to compensate ourselves with Bowler Nouns. Every 10th Bowler Noun
+            for the first 5 years of the project will be sent to our multisig (3/5), where it will
+            be vested and distributed to individual Bowlders.
           </Trans>
         </p>
         <p style={{ textAlign: 'justify' }}>
           <Trans>
-            The Nounders reward is intended as compensation for our pre and post-launch
-            contributions to the project, and to help us participate meaningfully in governance as
-            the project matures. Since there are 10 Nounders, after 5 years each Nounder could
-            receive up to 1% of the Noun supply.
+            The Bowlders reward is intended as compensation for our pre and post-launch
+            contributions to the project, and to help us participate meaningfully in game development as
+            the project matures.
           </Trans>
         </p>
       </Col>
