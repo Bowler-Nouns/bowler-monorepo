@@ -97,7 +97,7 @@ const NavBar = () => {
           <Navbar.Collapse className="justify-content-end">
             <Nav.Link as={Link} to="/play" className={classes.nounsNavLink} onClick={closeNav}>
               <NavBarButton
-                buttonText={<Trans>Start Bowling</Trans>}
+                buttonText={<Trans>BOWL!</Trans>}
                 buttonIcon={<FontAwesomeIcon icon={faPlay} />}
                 buttonStyle={nonWalletButtonStyle}
               />

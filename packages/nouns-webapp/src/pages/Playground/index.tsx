@@ -268,13 +268,6 @@ const Playground: React.FC = () => {
             <h1>
               <Trans>Playground</Trans>
             </h1>
-            <p>
-              <Trans>
-                The playground was built using the {nounsProtocolLink}. Noun's traits are determined
-                by the Noun Seed. The seed was generated using {nounsAssetsLink} and rendered using
-                the {nounsSDKLink}.
-              </Trans>
-            </p>
           </Col>
         </Row>
         <Row>
@@ -286,7 +279,7 @@ const Playground: React.FC = () => {
                 }}
                 className={classes.primaryBtn}
               >
-                <Trans>Generate Nouns</Trans>
+                <Trans>New Bowler Noun</Trans>
               </Button>
             </Col>
             <Row>
@@ -376,7 +369,7 @@ const Playground: React.FC = () => {
               <Trans>
                 You've generated{' '}
                 {i18n.number(parseInt(nounSvgs ? (nounSvgs.length / 365).toFixed(2) : '0'))} years
-                worth of Nouns
+                worth of Bowler Nouns
               </Trans>
             </p>
           </Col>
