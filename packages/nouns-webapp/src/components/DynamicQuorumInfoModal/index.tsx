@@ -87,7 +87,7 @@ const DynamicQuorumInfoModalOverlay: React.FC<{
               <Trans>
                 The Quorum (minimum number of For votes required to pass a proposal) is set as a
                 function of the number of Against votes a proposal has recieved. It increases
-                quadratically as a function of the % of Nouns voting against a prop, varying between
+                quadratically as a function of the % of Bowler Nouns voting against a prop, varying between
                 Min Quorum and Max Quorum.
               </Trans>
             ) : (
@@ -102,7 +102,7 @@ const DynamicQuorumInfoModalOverlay: React.FC<{
           {/* Mobile - no graph content */}
           <div className={clsx(responsiveUiUtilsClasses.mobileOnly, classes.mobileQuorumWrapper)}>
             <div className={classes.mobileQuorumInfo}>
-              <span>Min Quorum:</span> {Math.floor((minQuorumBps * totalNounSupply) / 10_000)} Nouns
+              <span>Min Quorum:</span> {Math.floor((minQuorumBps * totalNounSupply) / 10_000)} Bowler Nouns
             </div>
 
             <div className={classes.mobileQuorumInfo}>
@@ -110,11 +110,11 @@ const DynamicQuorumInfoModalOverlay: React.FC<{
               {Math.floor(
                 (Math.min(maxQuorumBps, dqmFunction(againstVotesBps)) * totalNounSupply) / 10_000,
               )}{' '}
-              Nouns
+              Bowler Nouns
             </div>
 
             <div className={classes.mobileQuorumInfo}>
-              <span>Max Quorum:</span> {Math.floor((maxQuorumBps * totalNounSupply) / 10_000)} Nouns
+              <span>Max Quorum:</span> {Math.floor((maxQuorumBps * totalNounSupply) / 10_000)} Bowler Nouns
             </div>
           </div>
 
@@ -123,7 +123,7 @@ const DynamicQuorumInfoModalOverlay: React.FC<{
             <div className={classes.graphWrapper}>
               {/* Y-Axis label */}
               <div className={classes.yAxisText}>
-                <Trans>Required % of Nouns to Pass</Trans>
+                <Trans>Required % of Bowler Nouns to Pass</Trans>
               </div>
 
               {/* Inner graph container */}
@@ -167,7 +167,7 @@ const DynamicQuorumInfoModalOverlay: React.FC<{
                       x={470 + 10}
                       y={PLOTTING_CONSTANTS.height - 10}
                     >
-                      {linearToConstantCrossoverBPS / 100}% of Nouns Against
+                      {linearToConstantCrossoverBPS / 100}% of Bowler Nouns Against
                     </text>
                   )}
                   {/* Vertical Line indicating against BPS */}
@@ -190,9 +190,9 @@ const DynamicQuorumInfoModalOverlay: React.FC<{
                   />
                   <circle cy={y} cx={x} r="7" fill="var(--brand-gray-light-text)" />
                   <text x="20" y="24">
-                    Max Quorum: {Math.floor((maxQuorumBps * totalNounSupply) / 10_000)} Nouns{' '}
+                    Max Quorum: {Math.floor((maxQuorumBps * totalNounSupply) / 10_000)} Bowler Nouns{' '}
                     <tspan fill="var(--brand-gray-light-text)">
-                      ({maxQuorumBps / 100}% of Nouns)
+                      ({maxQuorumBps / 100}% of Bowler Nouns)
                     </tspan>
                   </text>
                   {Math.abs(y - 10 - PLOTTING_CONSTANTS.minQHeightPlotSpace) > 100 ? (
