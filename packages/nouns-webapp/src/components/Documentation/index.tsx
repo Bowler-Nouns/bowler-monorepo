@@ -41,9 +41,15 @@ const Documentation = () => {
           </h1>
           <p className={classes.aboutText}>
             <Trans>
-              Bowler Nouns is an experiment in funding an independent game development studio with a DAO.
-              Projects such as {nounsLink} have attempted to bootstrap identity, community, governance, and a treasury for the community.
-              Bowler Nouns seeks to bootstrap a game studio, a bowling community, and a treasury to fund proposals related to bowling culture.
+                <p>
+                Bowler Nouns is an experimental attempt to build a decentralized bowling game with a DAO.
+                </p>
+                <p>
+                While projects such as Nouns have attempted to bootstrap identity, community, governance, and a treasury…
+                </p>
+                <p>
+                Bowler Nouns seeks to bootstrap a bunch of bowling games, bolstered by a treasury system designed to fund gaming operations, forever.
+                </p>
             </Trans>
           </p>
           <p className={classes.aboutText} style={{ paddingBottom: '1rem' }}>
@@ -76,7 +82,7 @@ const Documentation = () => {
                 </li>
                 <li>
                   <Trans>
-                    50% of Bowler Noun auction proceeds are sent to the game studio multisig
+                    50% of Bowler Noun auction proceeds are sent to the dev treasury multisig
                   </Trans>
                 </li>
                 <li>
@@ -101,7 +107,7 @@ const Documentation = () => {
                 </li>
                 <li>
                 <Trans>
-                    Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)
+                    Bowlders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)
                  </Trans>
                 </li>
                 <li>
@@ -124,7 +130,7 @@ const Documentation = () => {
                   distribution mechanism, auctioning one Bowler Noun every 12 hours, forever. 50% of
                   auction proceeds (ETH) are automatically deposited in the Bowler DAO treasury,
                   where they are governed by Bowler Noun owners. 50% of auction proceeds (ETH) are
-                  sent to the game studio multi-sig to fund gaming operations.
+                  sent to the dev treasury multisig to fund gaming operations.
                 </Trans>
               </p>
 
@@ -165,8 +171,8 @@ const Documentation = () => {
             <Accordion.Body>
               <p>
                 <Trans>
-                  The Bowler Nouns Foundation considers the veto an emergency power that should not
-                  be exercised in the normal course of business. The Bowler Nouns Foundation will
+                  The Bowler Nouns Foundation considers the veto a power that may be necessary
+                  to exercise in the course of business. The Bowler Nouns Foundation will
                   veto proposals that introduce non-trivial legal or existential risks to the Bowler
                   DAO or the Bowler Nouns Foundation, including (but not necessarily limited to)
                   proposals that:
@@ -175,12 +181,8 @@ const Documentation = () => {
               <ul>
                 <li>unequally withdraw the treasury for personal gain</li>
                 <li>bribe voters to facilitate withdraws of the treasury for personal gain</li>
-                <li>
-                  alter auction cadence for the purpose of maintaining or acquiring a voting
-                  majority
-                </li>
+                <li>alter auction cadence for the purpose of maintaining or acquiring a voting majority</li>
                 <li>make upgrades to critical smart contracts without undergoing an audit</li>
-                <li>propose game features which the game dev team is incapable of fulfilling</li>
               </ul>
             </Accordion.Body>
           </Accordion.Item>
@@ -262,8 +264,8 @@ const Documentation = () => {
             <Accordion.Body>
               <p>
                 <Trans>
-                  'Founders' are the group of five builders that initiated Bowler Nouns. Here are
-                  the Founders:
+                  'Bowlders' are the group of five builders that initiated Bowler Nouns. Here are
+                  the Bowlders:
                 </Trans>
               </p>
               <ul>
@@ -293,7 +295,7 @@ const Documentation = () => {
               </ul>
               <p>
                 <Trans>
-                  Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Founders
+                  Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Bowlders
                   have chosen to compensate themselves with Bowler Nouns. Every 10th Bowler Noun for
                   the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on)
                   will be automatically sent to the Founder's multisig to be vested and shared among
@@ -302,7 +304,7 @@ const Documentation = () => {
               </p>
               <p>
                 <Trans>
-                  To encourage proliferation of Bowler Nouns, Founders have chosen to reserve some
+                  To encourage proliferation of Bowler Nouns, Bowlders have chosen to reserve some
                   Bowler Nouns for prizes. Every 10th Bowler Noun for the first 15 years of the project
                   (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically
                   sent to the Prizekeeper's multisig to be given out as prizes to outstanding performers.
