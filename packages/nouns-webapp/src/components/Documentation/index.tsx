@@ -112,7 +112,7 @@ const Documentation = () => {
                 </li>
                 <li>
                   <Trans>
-                    Prizes are reserved in the form of Bowler Nouns (10% of supply for first 15 years)
+                    Prizekeepers receive prizes in the form of Bowler Nouns (10% of supply for first 15 years)
                   </Trans>
                 </li>
               </ul>
@@ -171,8 +171,8 @@ const Documentation = () => {
             <Accordion.Body>
               <p>
                 <Trans>
-                  The Bowler Nouns Foundation considers the veto a power that may be necessary
-                  to exercise in the course of business. The Bowler Nouns Foundation will
+                  The Bowler Nouns Foundation considers the veto an emergency power that may be
+                  exercised from time to time in the course of business. The Bowler Nouns Foundation will
                   veto proposals that introduce non-trivial legal or existential risks to the Bowler
                   DAO or the Bowler Nouns Foundation, including (but not necessarily limited to)
                   proposals that:
@@ -249,7 +249,7 @@ const Documentation = () => {
             <Accordion.Body>
               <p>
                 <Trans>
-                  The Noun Seeder contract is used to determine Bowler Noun traits during the
+                  The Bowler Noun Seeder contract is used to determine Bowler Noun traits during the
                   minting process. The seeder contract can be replaced to allow for future trait
                   generation algorithm upgrades. Additionally, it can be locked by the Bowler DAO to
                   prevent any future updates.
@@ -259,7 +259,7 @@ const Documentation = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="7" className={classes.accordionItem}>
             <Accordion.Header className={classes.accordionHeader}>
-              <Trans>Founder's Reward</Trans>
+              <Trans>Bowlder's Reward</Trans>
             </Accordion.Header>
             <Accordion.Body>
               <p>
@@ -292,19 +292,22 @@ const Documentation = () => {
                 <li>
                   <Link text="@yanzero_" url="https://twitter.com/@yanzero_" leavesPage={true} />
                 </li>
+                <li>
+                  <Link text="@kerimbonia" url="https://twitter.com/@kerimbonia" leavesPage={true} />
+                </li>
               </ul>
               <p>
                 <Trans>
                   Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Bowlders
                   have chosen to compensate themselves with Bowler Nouns. Every 10th Bowler Noun for
                   the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on)
-                  will be automatically sent to the Founder's multisig to be vested and shared among
+                  will be automatically sent to the Bowlder's multisig to be vested and shared among
                   the founding members of the project.
                 </Trans>
               </p>
               <p>
                 <Trans>
-                  To encourage proliferation of Bowler Nouns, Bowlders have chosen to reserve some
+                  To encourage proliferation of Bowler Nouns, Prizekeepers have chosen to reserve some
                   Bowler Nouns for prizes. Every 10th Bowler Noun for the first 15 years of the project
                   (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically
                   sent to the Prizekeeper's multisig to be given out as prizes to outstanding performers.
@@ -312,9 +315,9 @@ const Documentation = () => {
               </p>
               <p>
                 <Trans>
-                  Founder and Prize distributions don't interfere with the cadence of 12 hour
-                  auctions. Bowler Nouns are sent directly to the Founder's and Prizekeeper's
-                  multisigs, and auctions continue on schedule with the next Bowler Noun ID.
+                    Bowlder and Prizekeepers distributions don't interfere with the cadence of 12 hour
+                    auctions. Bowler Nouns are sent directly to the Bowlder's and Prizekeeper's
+                    multisigs, and auctions continue on schedule with the next Bowler Noun ID.
                 </Trans>
               </p>
             </Accordion.Body>
