@@ -103,19 +103,14 @@ const NounderNounContent: React.FC<{
             >
               <p>
                 <Trans>
-                  For this reason, we, the project's founders (‘Bowlders’) have chosen to compensate
-                  ourselves with Bowler Nouns. Every 10th Noun for the first 5 years of the project
-                  will be sent to our multisig (3/5), where it will be vested and distributed to
-                  individual Bowlders.
+                Every 10th Noun for the first 15 years of the project will be sent to the Bowlders multisig, , where it will be vested and distributed to
+                individual Bowlders.
                 </Trans>
               </p>
-              <Trans>
-                To encourage proliferation of Bowler Nouns, the project's keepers ('Prizekeepers')
-                have chosen to reserve some Bowler Nouns for prizes. Every 10th Bowler Noun for the
-                first 15 years of the project Bowler Nouns for a prize pool. Every 10th Bowler Noun
-                for the first 15 years of the project (Bowler Noun ids #1, #11, #21, #31 and so on)
-                will be automatically sent to the Prizekeeper's multisig to be given out as prizes
-                to outstanding performers.
+            <Trans>
+                The project's keepers ('Prizekeepers') have chosen to reserve Bowler Nouns to create a prize pool.
+                Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #11, #21)
+                will be sent to the Prizekeeper's multisig to be awarded to excellent individuals.
               </Trans>
             </li>
           </ul>
