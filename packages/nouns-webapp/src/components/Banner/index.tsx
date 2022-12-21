@@ -13,11 +13,11 @@ const Banner = () => {
       <Col lg={6}>
         <div className={classes.wrapper}>
           <h1>
-            <Trans>ONE BOWLER,</Trans>
+            <Trans>ONE BOWLER NOUN,</Trans>
             <br />
-            <Trans>EVERY 12 HRS,</Trans>
+            <Trans>EVERY 12 HOURS,</Trans>
             <br />
-            <Trans>FOREVER.</Trans>
+            <Trans>ALL WEEK LONG</Trans>
           </h1>
         </div>
       </Col>
