@@ -2,7 +2,7 @@ import classes from './Noun.module.css';
 import React from 'react';
 import loadingNoun from '../../assets/loading-skull-noun.gif';
 import Image from 'react-bootstrap/Image';
-import NounTraitsOverlay from '../NounTraitsOverlay';
+// import NounTraitsOverlay from '../NounTraitsOverlay';
 
 export const LoadingNoun = () => {
   return (
@@ -28,7 +28,7 @@ const Noun: React.FC<{
         alt={alt}
         fluid
       />
-      {Boolean(parts?.length) && <NounTraitsOverlay parts={parts!} />}
+      {/* {Boolean(parts?.length) && <NounTraitsOverlay parts={parts!} />} */}
     </div>
   );
 };
