@@ -34,8 +34,8 @@ const GovernancePage = () => {
         </Row>
         <p className={classes.subheading}>
           <Trans>
-            Bowler Nouns govern <span className={classes.boldText}>Bowler DAO</span>. Bowler Nouns can vote on
-            proposals or delegate their vote to a third party. A minimum of{' '}
+            Bowler Nouns govern <span className={classes.boldText}>Bowler DAO</span>. Bowler Nouns
+            can vote on proposals or delegate their vote to a third party. A minimum of{' '}
             <span className={classes.boldText}>
               {nounsRequired} {threshold === 0 ? nounSingular : nounPlural}
             </span>{' '}
@@ -55,7 +55,7 @@ const GovernancePage = () => {
                 <h1 className={classes.ethSymbol}>Ξ</h1>
                 <h1>
                   {treasuryBalance &&
-                    i18n.number(Number(Number(utils.formatEther(treasuryBalance)).toFixed(0)))}
+                    i18n.number(Number(Number(utils.formatEther(treasuryBalance)).toFixed(3)))}
                 </h1>
               </Col>
               <Col className={classes.usdTreasuryAmt}>
