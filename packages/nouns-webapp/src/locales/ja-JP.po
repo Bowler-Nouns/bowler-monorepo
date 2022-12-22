@@ -23,8 +23,12 @@ msgid "% of Nouns Currently Against"
 msgstr ""
 
 #: src/components/Documentation/index.tsx
-msgid "'Founders' are the group of five builders that initiated Bowler Nouns. Here are the Founders:"
+msgid "'Bowlders' are the group of five builders that initiated Bowler Nouns. Here are the Bowlders:"
 msgstr ""
+
+#: src/components/Documentation/index.tsx
+#~ msgid "'Founders' are the group of five builders that initiated Bowler Nouns. Here are the Founders:"
+#~ msgstr ""
 
 #: src/components/Documentation/index.tsx
 #~ msgid "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
@@ -50,13 +54,21 @@ msgstr ""
 #~ msgid "404: This is not the person, place, or thing you're looking for..."
 #~ msgstr "404: お探しの人、場所、物は見つかりませんでした。"
 
+#: src/pages/Nounders/index.tsx
+msgid "50% of Bowler Noun auction proceeds are sent to the Bowler Nouns DAO. For this reason, we, the project's founders (‘Bowlders’) have chosen to compensate ourselves with Bowler Nouns. Every 10th Bowler Noun for the first 5 years of the project will be sent to our multisig (3/5), where it will be vested and distributed to individual Bowlders."
+msgstr ""
+
+#: src/components/Documentation/index.tsx
+msgid "50% of Bowler Noun auction proceeds are sent to the dev treasury multisig"
+msgstr ""
+
 #: src/components/Documentation/index.tsx
 #~ msgid "50% of Bowler Noun auction proceeds are sent to the game studio multi-sig"
 #~ msgstr ""
 
 #: src/components/Documentation/index.tsx
-msgid "50% of Bowler Noun auction proceeds are sent to the game studio multisig"
-msgstr ""
+#~ msgid "50% of Bowler Noun auction proceeds are sent to the game studio multisig"
+#~ msgstr ""
 
 #: src/components/Documentation/index.tsx
 msgid "50% of Bowler Noun auction proceeds are trustlessly sent to the treasury"
@@ -91,6 +103,10 @@ msgstr "委任Noun: "
 #: src/components/ProposalHeader/index.tsx
 msgid "<0>Proposed by: </0><1>{proposer}</1><2>{proposedAtTransactionHash}</2>"
 msgstr "<2>{proposedAtTransactionHash}</2> <1>{proposer}</1> <0>が提案したものです</0>"
+
+#: src/components/Banner/index.tsx
+msgid "ALL DAY LONG"
+msgstr ""
 
 #: src/components/NounProfileVoteRow/index.tsx
 #: src/components/profileEvent/eventData/ProposalVoteHeadline/index.tsx
@@ -163,12 +179,12 @@ msgid "All Bowler Nouns are members of Bowler DAO"
 msgstr ""
 
 #: src/components/NounderNounContent/index.tsx
-msgid "All Noun auction proceeds are sent to the"
-msgstr "すべてのNounオークションの収益は、"
+#~ msgid "All Noun auction proceeds are sent to the"
+#~ msgstr "すべてのNounオークションの収益は、"
 
 #: src/pages/Nounders/index.tsx
-msgid "All Noun auction proceeds are sent to the Nouns DAO. For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
-msgstr "Nounオークションの収益は全て Nouns DAOに送られます。その為、我々、プロジェクトの創設者 (Nounders) はNounsで自らを補償することに決めました。 プロジェクトの最初の5年間の間は、毎回10体目のNounがマルチシグ(5/10) に送られた後、個々のナウンダーズに与えられ、配布されます。"
+#~ msgid "All Noun auction proceeds are sent to the Nouns DAO. For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
+#~ msgstr "Nounオークションの収益は全て Nouns DAOに送られます。その為、我々、プロジェクトの創設者 (Nounders) はNounsで自らを補償することに決めました。 プロジェクトの最初の5年間の間は、毎回10体目のNounがマルチシグ(5/10) に送られた後、個々のナウンダーズに与えられ、配布されます。"
 
 #: src/components/Documentation/index.tsx
 #~ msgid "All Nouns are members of Nouns DAO."
@@ -203,6 +219,10 @@ msgstr "オークションが終了しました"
 msgid "Auction ends in"
 msgstr "オークション終了まで"
 
+#: src/components/NavBar/index.tsx
+msgid "BOWL!"
+msgstr ""
+
 #: src/components/ProposalTransactionFormModal/index.tsx
 msgid "Back"
 msgstr "戻る"
@@ -225,8 +245,12 @@ msgstr ""
 #~ msgstr "Nounオークションの収益の100%がNouns DAOに送られるため、Nounderは自分達をNounsで補償することに決めました。プロジェクトの最初の5年間の間、毎回10番目のNoun (Noun ID #0, #10, #20, #30 など) が自動的にNoundersのマルチシグに送られ、プロジェクトの創設メンバー達に与えられて、共有されます。"
 
 #: src/components/Documentation/index.tsx
-msgid "Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Founders have chosen to compensate themselves with Bowler Nouns. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Founder's multisig to be vested and shared among the founding members of the project."
+msgid "Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Bowlders have chosen to compensate themselves with Bowler Nouns. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Bowlder's multisig to be vested and shared among the founding members of the project."
 msgstr ""
+
+#: src/components/Documentation/index.tsx
+#~ msgid "Because 50% of Bowler Noun auction proceeds are sent to the DAO treasury, Founders have chosen to compensate themselves with Bowler Nouns. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Founder's multisig to be vested and shared among the founding members of the project."
+#~ msgstr ""
 
 #: src/components/Bid/index.tsx
 #: src/components/Bid/index.tsx
@@ -268,8 +292,20 @@ msgid "Born"
 msgstr "誕生"
 
 #: src/components/Documentation/index.tsx
-#~ msgid "Bowlder's Reward"
-#~ msgstr ""
+msgid "Bowlder and Prizekeepers distributions don't interfere with the cadence of 12 hour auctions. Bowler Nouns are sent directly to the Bowlder's and Prizekeeper's multisigs, and auctions continue on schedule with the next Bowler Noun ID."
+msgstr ""
+
+#: src/components/Documentation/index.tsx
+msgid "Bowlder's Reward"
+msgstr ""
+
+#: src/components/Documentation/index.tsx
+msgid "Bowlders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)"
+msgstr ""
+
+#: src/pages/Nounders/index.tsx
+msgid "Bowlders' Reward"
+msgstr ""
 
 #: src/components/Documentation/index.tsx
 #: src/pages/Governance/index.tsx
@@ -329,7 +365,11 @@ msgid "Bowler Nouns govern <0>Bowler DAO</0>. Bowler Nouns can vote on proposals
 msgstr ""
 
 #: src/components/Documentation/index.tsx
-msgid "Bowler Nouns is an experiment in funding an independent game development studio with a DAO. Projects such as {nounsLink} have attempted to bootstrap identity, community, governance, and a treasury for the community. Bowler Nouns seeks to bootstrap a game studio, a bowling community, and a treasury to fund proposals related to bowling culture."
+#~ msgid "Bowler Nouns is an experiment in funding an independent game development studio with a DAO. Projects such as {nounsLink} have attempted to bootstrap identity, community, governance, and a treasury for the community. Bowler Nouns seeks to bootstrap a game studio, a bowling community, and a treasury to fund proposals related to bowling culture."
+#~ msgstr ""
+
+#: src/components/Documentation/index.tsx
+msgid "Bowler Nouns is an experimental attempt to build a decentralized bowling game with a DAO. While projects such as Nouns have attempted to bootstrap identity, community, governance, and a treasury… Bowler Nouns seeks to bootstrap a bunch of bowling games, bolstered by a treasury system designed to fund gaming operations, forever."
 msgstr ""
 
 #: src/components/NounProfileVoteRow/index.tsx
@@ -465,6 +505,7 @@ msgstr "説明"
 msgid "Disconnect"
 msgstr "切断する"
 
+#: src/components/Footer/index.tsx
 #: src/components/NavBar/index.tsx
 msgid "Discord"
 msgstr "Discord"
@@ -474,16 +515,20 @@ msgstr "Discord"
 #~ msgstr "Discourse"
 
 #: src/components/NavBar/index.tsx
-msgid "Docs"
-msgstr "ドキュメント"
+#~ msgid "Docs"
+#~ msgstr "ドキュメント"
 
 #: src/components/DynamicQuorumInfoModal/index.tsx
 msgid "Dynamic Quorum"
 msgstr ""
 
 #: src/components/Banner/index.tsx
-msgid "EVERY 12 HRS,"
+msgid "EVERY 12 HOURS,"
 msgstr ""
+
+#: src/components/Banner/index.tsx
+#~ msgid "EVERY 12 HRS,"
+#~ msgstr ""
 
 #: src/components/Banner/index.tsx
 #~ msgid "EVERY DAY,"
@@ -534,6 +579,10 @@ msgstr "Nounの誕生日を取得できませんでした"
 msgid "Etherscan"
 msgstr "Etherscan"
 
+#: src/components/NounderNounContent/index.tsx
+msgid "Every 10th Noun for the first 15 years of the project will be sent to the Bowlders multisig."
+msgstr ""
+
 #: src/pages/Vote/index.tsx
 msgid "Execute"
 msgstr "実行する"
@@ -561,8 +610,8 @@ msgid "Explore"
 msgstr "探索"
 
 #: src/components/Banner/index.tsx
-msgid "FOREVER."
-msgstr "永遠に。"
+#~ msgid "FOREVER."
+#~ msgstr "永遠に。"
 
 #: src/pages/Vote/index.tsx
 msgid "Failed to fetch"
@@ -582,28 +631,28 @@ msgid "For"
 msgstr "賛成"
 
 #: src/components/NounderNounContent/index.tsx
-msgid "For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th Noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
-msgstr "その為、我々、プロジェクトの創設者 (Nounders) はNounsで自らを補償することに決めました。 プロジェクトの最初の5年間の間は、毎回10体目のNounがマルチシグ(5/10) に送られた後、個々のナウンダーズに与えられ、配布されます。"
+#~ msgid "For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th Noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
+#~ msgstr "その為、我々、プロジェクトの創設者 (Nounders) はNounsで自らを補償することに決めました。 プロジェクトの最初の5年間の間は、毎回10体目のNounがマルチシグ(5/10) に送られた後、個々のナウンダーズに与えられ、配布されます。"
 
 #: src/components/Footer/index.tsx
 #~ msgid "Forums"
 #~ msgstr "Forums"
 
 #: src/components/Documentation/index.tsx
-msgid "Founder and Prize distributions don't interfere with the cadence of 12 hour auctions. Bowler Nouns are sent directly to the Founder's and Prizekeeper's multisigs, and auctions continue on schedule with the next Bowler Noun ID."
-msgstr ""
+#~ msgid "Founder and Prize distributions don't interfere with the cadence of 12 hour auctions. Bowler Nouns are sent directly to the Founder's and Prizekeeper's multisigs, and auctions continue on schedule with the next Bowler Noun ID."
+#~ msgstr ""
 
 #: src/components/Documentation/index.tsx
 #~ msgid "Founder and Prize distributions don't interfere with the cadence of 12 hour auctions. Bowler Nouns are sent directly to the Founder's and Prizekeeper's multisigs, and auctions continue on schedule with the next available Bowler Noun ID."
 #~ msgstr ""
 
 #: src/components/Documentation/index.tsx
-msgid "Founder's Reward"
-msgstr ""
+#~ msgid "Founder's Reward"
+#~ msgstr ""
 
 #: src/components/Documentation/index.tsx
-msgid "Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)"
-msgstr ""
+#~ msgid "Founders receive rewards in the form of Bowler Nouns (10% of supply for first 15 years)"
+#~ msgstr ""
 
 #: src/components/ProposalTransactionFormModal/index.tsx
 msgid "Function"
@@ -614,8 +663,8 @@ msgid "Function (Optional)"
 msgstr "関数 (任意)"
 
 #: src/pages/Playground/index.tsx
-msgid "Generate Nouns"
-msgstr "Nounsを作る"
+#~ msgid "Generate Nouns"
+#~ msgstr "Nounsを作る"
 
 #: src/components/ExploreGrid/ExploreNounDetail/index.tsx
 #: src/pages/Playground/index.tsx
@@ -681,8 +730,8 @@ msgid "Language"
 msgstr "言語"
 
 #: src/components/NounderNounContent/index.tsx
-msgid "Learn more"
-msgstr "詳細はこちら"
+#~ msgid "Learn more"
+#~ msgstr "詳細はこちら"
 
 #: src/components/Documentation/index.tsx
 msgid "Learn more below, or start creating Bowler Nouns off-chain using the {playgroundLink}."
@@ -702,6 +751,10 @@ msgstr ""
 
 #: src/components/DynamicQuorumInfoModal/index.tsx
 msgid "More details on how dynamic quorum works can be found <0>here</0>."
+msgstr ""
+
+#: src/pages/Playground/index.tsx
+msgid "New Bowler Noun"
 msgstr ""
 
 #: src/components/ProposalTransactionFormModal/index.tsx
@@ -763,8 +816,8 @@ msgstr "Nounの票は譲渡できませんが (Nounの売却にはそれに応�
 #~ msgstr "Nounderは、安全であると判断した場合、この拒否権を無効にすることが出来ます。この決定は、健全なNounの分布と、ガバナンスプロセスに関与しているコミュニティに基づいて行われます。"
 
 #: src/pages/Nounders/index.tsx
-msgid "Nounders' Reward"
-msgstr "Nounderへの報酬"
+#~ msgid "Nounders' Reward"
+#~ msgstr "Nounderへの報酬"
 
 #: src/components/Documentation/index.tsx
 msgid "Nouns"
@@ -779,8 +832,8 @@ msgid "Nouns Auction House"
 msgstr "Nounsオークションハウス"
 
 #: src/components/NounderNounContent/index.tsx
-msgid "Nouns DAO"
-msgstr "Nouns DAO"
+#~ msgid "Nouns DAO"
+#~ msgstr "Nouns DAO"
 
 #: src/components/Documentation/index.tsx
 #~ msgid "Nouns DAO uses a fork of {compoundGovLink}."
@@ -819,8 +872,12 @@ msgid "Now has"
 msgstr "今持っています"
 
 #: src/components/Banner/index.tsx
-msgid "ONE BOWLER,"
+msgid "ONE BOWLER NOUN,"
 msgstr ""
+
+#: src/components/Banner/index.tsx
+#~ msgid "ONE BOWLER,"
+#~ msgstr ""
 
 #: src/components/Banner/index.tsx
 #~ msgid "ONE NOUN,"
@@ -871,8 +928,8 @@ msgid "Place bid"
 msgstr "入札をする"
 
 #: src/components/NavBar/index.tsx
-msgid "Play Bowling Game"
-msgstr ""
+#~ msgid "Play Bowling Game"
+#~ msgstr ""
 
 #: src/components/Documentation/index.tsx
 #: src/components/NavBar/index.tsx
@@ -906,8 +963,12 @@ msgstr ""
 #~ msgstr "プレビュー："
 
 #: src/components/Documentation/index.tsx
-msgid "Prizes are reserved in the form of Bowler Nouns (10% of supply for first 15 years)"
+msgid "Prizekeepers receive prizes in the form of Bowler Nouns (10% of supply for first 15 years)"
 msgstr ""
+
+#: src/components/Documentation/index.tsx
+#~ msgid "Prizes are reserved in the form of Bowler Nouns (10% of supply for first 15 years)"
+#~ msgstr ""
 
 #: src/components/ProposalEditor/index.tsx
 msgid "Proposal"
@@ -960,8 +1021,12 @@ msgid "Reason (Optional)"
 msgstr "理由\"(任意)\""
 
 #: src/components/DynamicQuorumInfoModal/index.tsx
-msgid "Required % of Nouns to Pass"
+msgid "Required % of Bowler Nouns to Pass"
 msgstr ""
+
+#: src/components/DynamicQuorumInfoModal/index.tsx
+#~ msgid "Required % of Nouns to Pass"
+#~ msgstr ""
 
 #: src/components/LanguageSelectionModal/index.tsx
 msgid "Select Language"
@@ -1076,29 +1141,49 @@ msgstr "ブロックで撮影"
 msgid "Thank you for voting."
 msgstr "投票ありがとうございます。"
 
-#: src/components/Documentation/index.tsx
-msgid "The Bowler Nouns Auction Contract will act as a self-sufficient NFT generation and distribution mechanism, auctioning one Bowler Noun every 12 hours, forever. 50% of auction proceeds (ETH) are automatically deposited in the Bowler DAO treasury, where they are governed by Bowler Noun owners. 50% of auction proceeds (ETH) are sent to the game studio multi-sig to fund gaming operations."
+#: src/pages/Nounders/index.tsx
+msgid "The Bowlders"
+msgstr ""
+
+#: src/pages/Nounders/index.tsx
+msgid "The Bowlders reward is intended as compensation for our pre and post-launch contributions to the project, and to help us participate meaningfully in game development as the project matures."
 msgstr ""
 
 #: src/components/Documentation/index.tsx
-msgid "The Bowler Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Bowler Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Bowler DAO or the Bowler Nouns Foundation, including (but not necessarily limited to) proposals that:"
+msgid "The Bowler Noun Seeder contract is used to determine Bowler Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Bowler DAO to prevent any future updates."
 msgstr ""
 
 #: src/components/Documentation/index.tsx
-msgid "The Noun Seeder contract is used to determine Bowler Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Bowler DAO to prevent any future updates."
+msgid "The Bowler Nouns Auction Contract will act as a self-sufficient NFT generation and distribution mechanism, auctioning one Bowler Noun every 12 hours, forever. 50% of auction proceeds (ETH) are automatically deposited in the Bowler DAO treasury, where they are governed by Bowler Noun owners. 50% of auction proceeds (ETH) are sent to the dev treasury multisig to fund gaming operations."
 msgstr ""
+
+#: src/components/Documentation/index.tsx
+#~ msgid "The Bowler Nouns Auction Contract will act as a self-sufficient NFT generation and distribution mechanism, auctioning one Bowler Noun every 12 hours, forever. 50% of auction proceeds (ETH) are automatically deposited in the Bowler DAO treasury, where they are governed by Bowler Noun owners. 50% of auction proceeds (ETH) are sent to the game studio multi-sig to fund gaming operations."
+#~ msgstr ""
+
+#: src/components/Documentation/index.tsx
+msgid "The Bowler Nouns Foundation considers the veto an emergency power that may be exercised from time to time in the course of business. The Bowler Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Bowler DAO or the Bowler Nouns Foundation, including (but not necessarily limited to) proposals that:"
+msgstr ""
+
+#: src/components/Documentation/index.tsx
+#~ msgid "The Bowler Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Bowler Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Bowler DAO or the Bowler Nouns Foundation, including (but not necessarily limited to) proposals that:"
+#~ msgstr ""
+
+#: src/components/Documentation/index.tsx
+#~ msgid "The Noun Seeder contract is used to determine Bowler Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Bowler DAO to prevent any future updates."
+#~ msgstr ""
 
 #: src/components/Documentation/index.tsx
 #~ msgid "The Noun Seeder contract is used to determine Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Nouns DAO to prevent any future updates. Currently, Noun traits are determined using pseudo-random number generation:"
 #~ msgstr "Nounシーダー契約は、ミントのプロセスでNounsの特徴を決定するために使用されます。シーダー契約は、今後の特徴生成アルゴリズムのアップグレードを可能にするために変更することができ、さらに、今後のアップデートを防ぐためにNouns DAOによってロックすることも可能です。現在、Nounsの特徴は擬似乱数生成を用い決められています。"
 
 #: src/pages/Nounders/index.tsx
-msgid "The Nounders"
-msgstr "Nounders"
+#~ msgid "The Nounders"
+#~ msgstr "Nounders"
 
 #: src/pages/Nounders/index.tsx
-msgid "The Nounders reward is intended as compensation for our pre and post-launch contributions to the project, and to help us participate meaningfully in governance as the project matures. Since there are 10 Nounders, after 5 years each Nounder could receive up to 1% of the Noun supply."
-msgstr "Noundersの報酬は、プロジェクト開始前と開始後の貢献に対する対価として提供されるほか、プロジェクトが成熟するにつれ、ガバナンスに有意義に参加できるよう支援することも目的としています。Noundersは10人なので、5年後には各ナウンダーは最大でNounの供給量の1%を受け取ることができます。"
+#~ msgid "The Nounders reward is intended as compensation for our pre and post-launch contributions to the project, and to help us participate meaningfully in governance as the project matures. Since there are 10 Nounders, after 5 years each Nounder could receive up to 1% of the Noun supply."
+#~ msgstr "Noundersの報酬は、プロジェクト開始前と開始後の貢献に対する対価として提供されるほか、プロジェクトが成熟するにつれ、ガバナンスに有意義に参加できるよう支援することも目的としています。Noundersは10人なので、5年後には各ナウンダーは最大でNounの供給量の1%を受け取ることができます。"
 
 #: src/components/Documentation/index.tsx
 #~ msgid "The Nouns Auction Contract will act as a self-sufficient Noun generation and distribution mechanism, auctioning one Noun every 24 hours, forever. 100% of auction proceeds (ETH) are automatically deposited in the Nouns DAO treasury, where they are governed by Noun owners."
@@ -1113,8 +1198,12 @@ msgstr "Noundersの報酬は、プロジェクト開始前と開始後の貢献�
 #~ msgstr ""
 
 #: src/components/DynamicQuorumInfoModal/index.tsx
-msgid "The Quorum (minimum number of For votes required to pass a proposal) is set as a function of the number of Against votes a proposal has recieved. It increases quadratically as a function of the % of Nouns voting against a prop, varying between Min Quorum and Max Quorum."
+msgid "The Quorum (minimum number of For votes required to pass a proposal) is set as a function of the number of Against votes a proposal has recieved. It increases quadratically as a function of the % of Bowler Nouns voting against a prop, varying between Min Quorum and Max Quorum."
 msgstr ""
+
+#: src/components/DynamicQuorumInfoModal/index.tsx
+#~ msgid "The Quorum (minimum number of For votes required to pass a proposal) is set as a function of the number of Against votes a proposal has recieved. It increases quadratically as a function of the % of Nouns voting against a prop, varying between Min Quorum and Max Quorum."
+#~ msgstr ""
 
 #: src/components/DynamicQuorumInfoModal/index.tsx
 msgid "The Quorum (minimum number of For votes required to pass a proposal) is set as a function of the number of Against votes a proposal has recieved. The number of For votes required to pass Proposal {0} is given by the following curve:"
@@ -1125,8 +1214,12 @@ msgid "The compressed parts are efficiently converted into a single base64 encod
 msgstr "圧縮されたパーツは、オンチェインで効率よく1つのbase64エンコードされたSVG画像に変換されます。そのために、各パーツは中間フォーマットにデコードされた後、オンチェーンでの文字列連結により一連のSVG rectsに変換されます。SVG全体が生成されると、それはbase64でエンコードされます。"
 
 #: src/pages/Playground/index.tsx
-msgid "The playground was built using the {nounsProtocolLink}. Noun's traits are determined by the Noun Seed. The seed was generated using {nounsAssetsLink} and rendered using the {nounsSDKLink}."
-msgstr "遊び場は{nounsProtocolLink} を使用して作られており、Nounの特徴は、Nounシードによって決まります。{nounsAssetsLink} でシードを生成し、{nounsSDKLink} でレンダリングされています。"
+#~ msgid "The playground was built using the {nounsProtocolLink}. Noun's traits are determined by the Noun Seed. The seed was generated using {nounsAssetsLink} and rendered using the {nounsSDKLink}."
+#~ msgstr "遊び場は{nounsProtocolLink} を使用して作られており、Nounの特徴は、Nounシードによって決まります。{nounsAssetsLink} でシードを生成し、{nounsSDKLink} でレンダリングされています。"
+
+#: src/components/NounderNounContent/index.tsx
+msgid "The project's keepers ('Prizekeepers') have chosen to reserve Bowler Nouns to create a prize pool. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #11, #21) will be sent to the Prizekeeper's multisig to be awarded to excellent individuals."
+msgstr ""
 
 #: src/components/Documentation/index.tsx
 #~ msgid "The proposal veto right was initially envisioned as a temporary solution to the problem of ‘51% attacks’ on the Nouns DAO treasury. While Nounders initially believed that a healthy distribution of Nouns would be sufficient protection for the DAO, a more complete understanding of the incentives and risks has led to general consensus within the Nounders, the Nouns Foundation, and the wider community that a more robust game-theoretic solution should be implemented before the right is removed."
@@ -1177,7 +1270,11 @@ msgstr "コツ："
 #~ msgstr ""
 
 #: src/components/Documentation/index.tsx
-msgid "To encourage proliferation of Bowler Nouns, Founders have chosen to reserve some Bowler Nouns for prizes. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically sent to the Prizekeeper's multisig to be given out as prizes to outstanding performers."
+#~ msgid "To encourage proliferation of Bowler Nouns, Founders have chosen to reserve some Bowler Nouns for prizes. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically sent to the Prizekeeper's multisig to be given out as prizes to outstanding performers."
+#~ msgstr ""
+
+#: src/components/Documentation/index.tsx
+msgid "To encourage proliferation of Bowler Nouns, Prizekeepers have chosen to reserve some Bowler Nouns for a prize pool. Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically sent to the Prizekeeper's multisig to be given out as prizes to outstanding performers."
 msgstr ""
 
 #: src/components/Documentation/index.tsx
@@ -1264,7 +1361,6 @@ msgstr "すべての入札を表示"
 #: src/components/profileEvent/event/DesktopProposalVoteEvent/index.tsx
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
-#: src/components/Winner/index.tsx
 msgid "View on Etherscan"
 msgstr "イーサスキャンで見る"
 
@@ -1388,8 +1484,12 @@ msgid "You've already delegated to this address"
 msgstr "あなたはすでにこのアドレスに委任しています"
 
 #: src/pages/Playground/index.tsx
-msgid "You've generated {0} years worth of Nouns"
-msgstr "{0} 年分のナウンを生成しました"
+msgid "You've generated {0} years worth of Bowler Nouns"
+msgstr ""
+
+#: src/pages/Playground/index.tsx
+#~ msgid "You've generated {0} years worth of Nouns"
+#~ msgstr "{0} 年分のナウンを生成しました"
 
 #: src/components/VoteModal/index.tsx
 msgid "You've successfully voted on on prop {0}"
