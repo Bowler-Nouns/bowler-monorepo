@@ -2,6 +2,9 @@ import classes from './Noun.module.css';
 import React from 'react';
 import loadingNoun from '../../assets/loading-skull-noun.gif';
 import Image from 'react-bootstrap/Image';
+import Bowl_Button from '../../assets/bowl-button.png';
+import { useHistory } from 'react-router';
+
 // import NounTraitsOverlay from '../NounTraitsOverlay';
 
 export const LoadingNoun = () => {
@@ -18,8 +21,10 @@ const Noun: React.FC<{
   className?: string;
   wrapperClassName?: string;
   parts?: { filename: string }[];
+  showButton?: boolean;
 }> = props => {
-  const { imgPath, alt, className, wrapperClassName, parts } = props;
+  const history = useHistory();
+  const { imgPath, alt, className, wrapperClassName, parts, showButton } = props;
   return (
     <div className={`${classes.imgWrapper} ${wrapperClassName}`} data-tip data-for="noun-traits">
       <Image
@@ -28,6 +33,16 @@ const Noun: React.FC<{
         alt={alt}
         fluid
       />
+      {showButton && (
+        <Image
+          className={classes.topButton}
+          src={Bowl_Button}
+          style={{ cursor: 'pointer' }}
+          fluid
+          onClick={() => history.push(`/play`)}
+        />
+      )}
+
       {/* {Boolean(parts?.length) && <NounTraitsOverlay parts={parts!} />} */}
     </div>
   );

@@ -145,7 +145,7 @@ export const StandaloneNounWithSeed: React.FC<StandaloneNounWithSeedProps> = (
 
   const { image, description, parts } = getNoun(nounId, seed);
 
-  const noun = <Noun imgPath={image} alt={description} parts={parts} />;
+  const noun = <Noun imgPath={image} alt={description} parts={parts} showButton={true} />;
   const nounWithLink = (
     <Link
       to={'/noun/' + nounId.toString()}
