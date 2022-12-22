@@ -64,10 +64,11 @@
 @media (max-width: 992px) {
   .topButton {
     position: absolute;
-    top: -30px;
-    left: 0;
+    top: -25px;
+    left: -50px;
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    width: 200px;
   }
 }
