@@ -1,4 +1,4 @@
 x CONFIG
-TAGLINE1	The Game for Nouns Fans	BENEFACTOR	Nouny Nounington	VNUM	v1.0.0	BUILD	091222	DAILYTITLE	12 NEWEST NOUN BALLS	DAILYSUBTITLE	1 NOUN BALL, EVERY DAY, FOREVER. WTF? — <DATE>	
+TAGLINE1	The Game for Nouns Fans	BENEFACTOR	Nouny Nounington	VNUM	v1.0.b1	BUILD	122122	DAILYTITLE	12 NEWEST BOWLER NOUNS	DAILYSUBTITLE	1 BOWLER NOUN, EVERY 12 HOURS, FOREVER. WTF? — <DATE>	
 MEDIAALPHA	https://www.bowlernouns.wtf/game/StreamingAssets/	MEDIABETA	https://www.bowlernouns.wtf/game/StreamingAssets/	MEDIALIVE	https://www.bowlernouns.wtf/game/StreamingAssets/	
 x_END
