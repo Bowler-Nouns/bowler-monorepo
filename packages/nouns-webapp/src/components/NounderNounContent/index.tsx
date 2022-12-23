@@ -107,9 +107,8 @@ const NounderNounContent: React.FC<{
                 </Trans>
               </p>
             <Trans>
-                The project's keepers ('Prizekeepers') have chosen to reserve Bowler Nouns to create a prize pool.
                 Every 10th Bowler Noun for the first 15 years of the project (Bowler Noun ids #1, #11, #21)
-                will be sent to the Prizekeeper's multisig to be awarded to excellent individuals.
+                will be sent to the Prizekeeper's multisig to create a prize pool.
               </Trans>
             </li>
           </ul>
