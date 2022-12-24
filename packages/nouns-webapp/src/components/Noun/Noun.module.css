@@ -52,27 +52,6 @@
   }
 }
 
-.topButton {
-  position: absolute;
-  top: -30px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 992px) {
-  .topButton {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-  }
-}
-
 @media (max-width: 5px) {
   .topButton {
     position: absolute;
