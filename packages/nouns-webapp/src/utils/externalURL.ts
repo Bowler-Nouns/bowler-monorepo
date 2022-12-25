@@ -16,6 +16,8 @@ export const externalURL = (externalURL: ExternalURL) => {
       return 'https://discourse.nouns.wtf/';
     case ExternalURL.discord:
       return 'https://discord.gg/7BeTSg8D9M';
+    case ExternalURL.opensea:
+      return 'https://opensea.io/collection/bowler-nouns';
     case ExternalURL.nounsCenter:
       return 'https://nouns-bowling.notion.site/Nouns-Bowling-bringing-the-Nouns-together-for-a-lively-game-of-bowling-36fa0ca9593848f582d968180d7a0ffe';
   }
