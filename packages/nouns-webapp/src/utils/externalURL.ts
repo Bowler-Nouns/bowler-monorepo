@@ -4,6 +4,7 @@ export enum ExternalURL {
   discourse,
   nounsCenter,
   discord,
+  opensea,
 }
 
 export const externalURL = (externalURL: ExternalURL) => {
