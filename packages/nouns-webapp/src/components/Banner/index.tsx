@@ -17,7 +17,7 @@ const Banner = () => {
             <br />
             <Trans>EVERY 12 HRS,</Trans>
             <br />
-            <Trans>ALL DAY LONG</Trans>
+            <Trans>FOREVER.</Trans>
           </h1>
         </div>
       </Col>
