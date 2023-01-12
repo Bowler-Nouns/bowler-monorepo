@@ -41,7 +41,7 @@ const Documentation = () => {
           </h1>
           <p className={classes.aboutText}>
             <Trans>
-                Bowler Nouns is an experimental attempt to build a decentralized bowling game with a DAO.
+                Bowler Nouns is a decentralized gaming project funded and governed by a DAO.
                 While projects such as Nouns have attempted to bootstrap identity, community, governance, and a treasury…
                 Bowler Nouns seeks to bootstrap a bunch of bowling games, bolstered by a treasury system designed to fund gaming operations, forever.
             </Trans>
@@ -76,7 +76,7 @@ const Documentation = () => {
                 </li>
                 <li>
                   <Trans>
-                    50% of Bowler Noun auction proceeds are sent to the dev treasury multisig
+                    50% of Bowler Noun auction proceeds are sent to the dev treasury
                   </Trans>
                 </li>
                 <li>
@@ -95,7 +95,12 @@ const Documentation = () => {
                   <Trans>
                     The treasury is controlled exclusively by Bowler Nouns via governance
                   </Trans>
-                </li>
+                  </li>
+                  <li>
+                  <Trans>
+                    The dev treasury funds gaming operations and is not controlled via governance
+                  </Trans>
+                  </li>
                 <li>
                   <Trans>Artwork is generative and stored directly on-chain (not IPFS)</Trans>
                 </li>
@@ -124,7 +129,7 @@ const Documentation = () => {
                   distribution mechanism, auctioning one Bowler Noun every 12 hours, forever. 50% of
                   auction proceeds (ETH) are automatically deposited in the Bowler DAO treasury,
                   where they are governed by Bowler Noun owners. 50% of auction proceeds (ETH) are
-                  sent to the dev treasury multisig to fund gaming operations.
+                  sent to the dev treasury to fund gaming operations.
                 </Trans>
               </p>
 
@@ -286,9 +291,6 @@ const Documentation = () => {
                 <li>
                   <Link text="@yanzero_" url="https://twitter.com/@yanzero_" leavesPage={true} />
                 </li>
-                <li>
-                  <Link text="@kerimbonia" url="https://twitter.com/@kerimbonia" leavesPage={true} />
-                </li>
               </ul>
               <p>
                 <Trans>
@@ -301,10 +303,10 @@ const Documentation = () => {
               </p>
               <p>
                 <Trans>
-                  To encourage proliferation of Bowler Nouns, Prizekeepers have chosen to reserve some
+                  To encourage proliferation of Bowler Nouns, Bowlders have chosen to reserve some
                   Bowler Nouns for a prize pool. Every 10th Bowler Noun for the first 15 years of the project
                   (Bowler Noun ids #1, #11, #21, #31 and so on) will be automatically
-                  sent to the Prizekeeper's multisig to be given out as prizes to outstanding performers.
+                  sent to the Prizekeeper's multisig to be granted as prizes.
                 </Trans>
               </p>
               <p>
