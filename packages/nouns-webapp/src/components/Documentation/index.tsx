@@ -42,13 +42,12 @@ const Documentation = () => {
           <p className={classes.aboutText}>
             <Trans>
                 Bowler Nouns is a decentralized gaming project funded and governed by a DAO.
-                While projects such as Nouns have attempted to bootstrap identity, community, governance, and a treasury…
                 Bowler Nouns seeks to bootstrap a bunch of bowling games, bolstered by a treasury system designed to fund gaming operations, forever.
             </Trans>
           </p>
           <p className={classes.aboutText} style={{ paddingBottom: '1rem' }}>
             <Trans>
-              Learn more below, or start creating Bowler Nouns off-chain using the {playgroundLink}.
+              You can make make a free Bowler Noun off-chain at the {playgroundLink}.
             </Trans>
           </p>
         </div>
